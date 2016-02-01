@@ -1,0 +1,223 @@
+
+          Seabird Utiltiy for Moored and Profiling InStallations.
+	 			(SUMPIS)
+                    
+
+Wendi Ruef 2006
+Last revised: January 2016
+
+
+Overview
+========
+  The design of sumpis grew out of a necessity to automatically
+  process the large number of data files collected with the 
+  Seabird CTD packages deployed on the ORCA mooring packages.
+  At the time the Seabird data conversion software ran only in 
+  a Windows operating system.  As the ORCA project server is a 
+  Linux based system, we initially used a Windows emulator on 
+  the server to run the software, but quickly found this to be 
+  cumbersome and vulnerable to potential hang ups.
+  Our solution was to write a processing software package in Perl
+  that uses all the Seabird equations (published in the sensor
+  manuals, calibration sheets, and application notes) and 
+  calibrations, while minimizing the number of configuration files
+  necessary for processing.  
+
+Installation
+============
+  Dependencies:
+  	Perl version: 5.8 or higher. 
+             
+  Unpack the distribution and place it in your path.  Test by
+  running:
+
+      make test
+
+
+Manual Operations
+=================
+
+  The SUMPIS program is used to process files collected with
+  a Seabird CTD.  The current version supports the following 
+  CTDS:
+	19
+	19Plus
+	19Plus_v2
+  Auxiliary Sensors:
+	Oxygen:
+		SBE 43 
+	Flurometers:
+		WetLABS WetStar 
+		WetLABS FLNTUS	
+	Nutrients:
+		SatLantic ISUS
+
+  Sumpis may be run through the command line or packaged in 
+  a shell script.  It is used to process a directory of raw HEX files.
+
+  Here is a list of the current command line options:
+	-no-align: do not automatically align auxiliary sensors 
+	-format: choose the file format to print out 
+	-caldir: where the raw files can be found
+	
+	example command line:
+	./sumpis.pl -no_align -format 19Plus_compare -caldir raw -config ../configurationFiles/TORCA_conf.txt raw/201601
+
+
+File Descriptions
+=================
+  Raw files: Raw data files output from the Seabird CTD in HEX
+	- must include header obtained by running the "DS" 
+          command (display status)
+	  followed by the "DH" command (display header) 
+ 	  followed by the "DC" command (display casts)
+
+*DS
+*SeacatPlus V 1.6b  SERIAL NO. 5071    14 Jan 2016  10:50:02
+*vbatt = 11.5, vlith =  8.1, ioper =  61.9 ma, ipump = 178.8 ma, 
+*iext01 =   5.1 ma
+*iext23 =  41.4 ma
+* Temperature SN = 5071
+* Conductivity SN = 5071
+*status = not logging
+*number of scans to average = 1
+*samples = 1504, free = 440001, casts = 1
+*mode = profile, minimum cond freq = 0, pump delay = 0 sec
+*autorun = no, ignore magnetic switch = yes
+*battery type = alkaline, battery cutoff =  7.3 volts
+*pressure sensor = strain gauge, range = 508.0
+*SBE 38 = no, Gas Tension Device = no
+*Ext Volt 0 = yes, Ext Volt 1 = yes, Ext Volt 2 = yes, Ext Volt 3 = yes
+*echo commands = yes
+*output format = raw HEX
+*S>DH
+*cast   1 14 Jan 2016 10:43:42 samples 1 to 1504, avg = 1, stop = stop cmd
+*S>DC
+*END*
+06CDAB157A20086F7C4FDD2B6D0003092B145C
+06CDA9157A17086F7F4FDE2B6A000309FC1449
+06CDA115798B086F7C4FDE2B72000409BE140F
+06CCB5157BB5086F7B4FDE2B74000409CE13FA
+//
+S>
+
+  Buoy Config files: config file that lists the basic buoy stats 
+  (Latitude is necessary as it is used to calculate depth in meters) and 
+  location of the necessary config and deployment files
+
+
+#Example entries:
+# name = "string of description"
+# name = value, value, value
+# name = value
+# name = string_one_word
+# name = path/to/file
+
+Location = "ORCA buoy, Twanoh, Hood Canal....."
+Latitude = 47.372
+Longitude = 123.00833
+sensor_deploy_history = /home/orca/bin/sumpis/configurationFiles/sensor_deployment_history_twanoh.txt
+sensor_cal_history = /home/orca/bin/sumpis/configurationFiles/sensor_calibration_data.txt
+discrete_cal_data = /home/orca/bin/sumpis/calibrations/discrete_O2_twanoh.txt
+O2_bottle_volume_data = /home/orca/bin/sumpis/calibrations/O2_bottle_volumes.txt
+output_column_order = Temp, Cond, Sal, Press
+
+  Sensor Deployment History: deployment history of the sensors at 
+  a particular buoy location.
+
+
+# Format:
+# [date time]
+# Cast_number
+# CTD_type CTD_serial_number
+# Pump_type Pump_serial_number
+# Volt0_sensor_type sensor_model serial_number
+# Volt1_sensor_type sensor_model serial_number
+# Volt2_sensor_type sensor_model serial_number
+# Volt3_sensor_type sensor_model serial_number
+#
+# EX:
+# [01/01/05 12:00]
+# CAST=200510/ORCA2_CAST0002.HEX
+# CTD=SBE19 SN=2835
+# PUMP=5T SN=052902
+# V0=O2 Model=SBE43 SN=0015
+# V1=Fluor Model=WetStar SN=WS3S-586P
+# V2=NA Model=NA SN=NA
+# V3=NA Model=NA SN=NA
+# Serial2=Currents Model=Aquadopp SN=2348  
+#    
+
+[01/19/05 10:00]
+CAST=200501/ORCA1_CAST0001.HEX
+CTD=SBE19 SN=2835
+PUMP=5T SN=052902
+V0=O2 Model=SBE43 SN=0015
+V1=NA Model=NA SN=NA
+V2=Fluor Model=WetStar SN=WS3S-668P
+V3=NA Model=NA SN=NA
+Serial2=NA Model=NA SN=NA
+
+  Sensor calibration history: all the calibration coefficients from 
+  the different sensors, as reported by Seabird.
+
+# Format:
+# Sensor_type serial_number
+# sensor_cal_date=[cal_date] 
+# cal_coefficients
+# sensor_cal_date=[cal date]
+# cal_coefficients
+#
+# EX:
+# Sensor=SBE19 SN=2835
+# CTD_cal_date=[07/08/1999]
+# cond_g=-4.16533426 cond_h=4.96296919e-01 cond_i=1.54601169e-03 cond_j=-4.7723728e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+# temp_g=4.21059973e-03 temp_h=5.97017997e-04 temp_i=3.80929083e-06 temp_j=-1.85656400e-06 temp_f0=1000.00
+# press_M=-6.526e-02 press_B=248.60 press_A0=248.24555 press_A1=-6.524518e-02 press_A2=5.430179e-08
+#
+# all numbers with a decimal point must start with a digit (0.5, 0.0, etc)
+# Scientific notation is accepted (1.345e-04)
+#CTD_cal_date=[//]
+#cond_g= cond_h= cond_i= cond_j= cond_CPcor= cond_CTcor=
+#temp_g= temp_h= temp_i= temp_j= temp_f0=
+#press_M= press_B= press_A0= press_A1= press_A2=
+#CTD_cal_date=[//]
+#cond_g= cond_h= cond_i= cond_j= cond_CPcor= cond_CTcor=
+#temp_a0= temp_a1= temp_a2= temp_a3=
+#press_PA0= press_PA1= press_PA2= press_PTempPA0= press_PTempPA1= press_PTempPA2=
+#press_PTCA0= press_PTCA1= press_PTCA2= press_PTCB0= press_PTCB1= press_PTCB2=
+
+# # # # # # # # # # # # # # # #
+# Data entered and verified:  # 
+# 14 December 2006 -- WMR     #
+#		 	      #
+# # # # # # # # # # # # # # # #
+
+Sensor=SBE19 SN=2835
+CTD_cal_date=[07/08/1999]
+cond_g=-4.16533426e+00 cond_h=4.96296919e-01 cond_i=1.54601169e-03 cond_j=-4.77623728e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.21059973e-03 temp_h=5.97017997e-04 temp_i=3.80929083e-06 temp_j=-1.85656400e-06 temp_f0=1000.00
+press_M=-0.06526 press_B=248.60 press_A0=248.24555 press_A1=-6.524518e-02 press_A2=5.430179e-08
+CTD_cal_date=[12/07/2001]
+cond_g=-4.09700020e+00 cond_h=4.90273419e-01 cond_i=6.58576977e-04 cond_j=-2.46017159e-06 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.20839244e-03 temp_h=5.91775059e-04 temp_i=-3.18337943e-07 temp_j=-2.92764296e-06 temp_f0=1000.00
+press_M=-0.06524 press_B=248.84 press_A0=248.46950 press_A1=-6.523024e-02 press_A2=5.705084e-08
+
+
+  O2 bottle volume data: file that stores bottle volumes of 
+  winkler sample bottles for use in calculating discrete samples.
+  The current version of the code does not use discrete samples 
+  to calibrate the sensor data.
+
+  output column order: not currently used
+
+
+Known Issues
+============
+
+	- alignment algorithm cannot shift by frations of a scan 
+          as is done in the Seabird software package.
+
+
+
+

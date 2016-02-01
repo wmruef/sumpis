@@ -1,0 +1,42 @@
+# Format:
+# [date time]
+# Cast_number
+# CTD_type CTD_serial_number
+# Pump_type Pump_serial_number
+# Volt0_sensor_type sensor_model serial_number
+# Volt1_sensor_type sensor_model serial_number
+# Volt2_sensor_type sensor_model serial_number
+# Volt3_sensor_type sensor_model serial_number
+#
+# EX:
+# [01/01/05 12:00]
+# CAST=200510/ORCA2_CAST0002.HEX
+# CTD=SBE19 SN=2835
+# PUMP=5T SN=052902
+# V0=O2 Model=SBE43 SN=0015
+# V1=Fluor Model=WetStar SN=WS3S-586P
+# V2=NA Model=NA SN=NA
+# V3=NA Model=NA SN=NA
+# Serial2=Currents Model=Aquadopp SN=2348  
+#    
+
+[01/19/05 10:00]
+CAST=200501/ORCA1_CAST0001.HEX
+CTD=SBE19 SN=2835
+PUMP=5T SN=052902
+V0=O2 Model=SBE43 SN=0015
+V1=NA Model=NA SN=NA
+V2=Fluor Model=WetStar SN=WS3S-668P
+V3=NA Model=NA SN=NA
+Serial2=NA Model=NA SN=NA
+
+[01/14/2016 10:00]
+CAST=201601/ORCA1_CAST28921.HEX
+CTD=SBE19Plus SN=5071
+PUMP=5T SN=054306
+V0=O2 Model=SBE43 SN=1457
+V1=NA Model=NA SN=NA
+V2=Fluor Model=WetStar SN=WS3S-668P
+V3=NA Model=NA SN=NA
+CTDSerial=NA Model=NA SN=NA
+Serial2=NA Model=NA SN=NA

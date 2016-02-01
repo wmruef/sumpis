@@ -1,0 +1,15 @@
+#Example entries:
+# name = "string of description"
+# name = value, value, value
+# name = value
+# name = string_one_word
+# name = path/to/file
+
+Location = "ORCA buoy, Twanoh, Hood Canal....."
+Latitude = 47.372
+Longitude = 123.00833
+sensor_deploy_history = /home/orca/bin/sumpis/configurationFiles/sensor_deployment_history_twanoh.txt
+sensor_cal_history = /home/orca/bin/sumpis/configurationFiles/sensor_calibration_data.txt
+discrete_cal_data = /home/orca/bin/sumpis/calibrations/discrete_O2_twanoh.txt
+O2_bottle_volume_data = /home/orca/bin/sumpis/calibrations/O2_bottle_volumes.txt
+output_column_order = Temp, Cond, Sal, Press

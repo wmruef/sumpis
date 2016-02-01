@@ -1,0 +1,497 @@
+# Format:
+# Sensor_type serial_number
+# sensor_cal_date=[cal_date] 
+# cal_coefficients
+# sensor_cal_date=[cal date]
+# cal_coefficients
+#
+# EX:
+# Sensor=SBE19 SN=2835
+# CTD_cal_date=[07/08/1999]
+# cond_g=-4.16533426 cond_h=4.96296919e-01 cond_i=1.54601169e-03 cond_j=-4.7723728e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+# temp_g=4.21059973e-03 temp_h=5.97017997e-04 temp_i=3.80929083e-06 temp_j=-1.85656400e-06 temp_f0=1000.00
+# press_M=-6.526e-02 press_B=248.60 press_A0=248.24555 press_A1=-6.524518e-02 press_A2=5.430179e-08
+#
+# all numbers with a decimal point must start with a digit (0.5, 0.0, etc)
+# Scientific notation is accepted (1.345e-04)
+#CTD_cal_date=[//]
+#cond_g= cond_h= cond_i= cond_j= cond_CPcor= cond_CTcor=
+#temp_g= temp_h= temp_i= temp_j= temp_f0=
+#press_M= press_B= press_A0= press_A1= press_A2=
+#CTD_cal_date=[//]
+#cond_g= cond_h= cond_i= cond_j= cond_CPcor= cond_CTcor=
+#temp_a0= temp_a1= temp_a2= temp_a3=
+#press_PA0= press_PA1= press_PA2= press_PTempPA0= press_PTempPA1= press_PTempPA2=
+#press_PTCA0= press_PTCA1= press_PTCA2= press_PTCB0= press_PTCB1= press_PTCB2=
+
+# # # # # # # # # # # # # # # #
+# Data entered and verified:  # 
+# 14 December 2006 -- WMR     #
+#		 	      #
+# # # # # # # # # # # # # # # #
+
+Sensor=SBE19 SN=2835
+CTD_cal_date=[07/08/1999]
+cond_g=-4.16533426e+00 cond_h=4.96296919e-01 cond_i=1.54601169e-03 cond_j=-4.77623728e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.21059973e-03 temp_h=5.97017997e-04 temp_i=3.80929083e-06 temp_j=-1.85656400e-06 temp_f0=1000.00
+press_M=-0.06526 press_B=248.60 press_A0=248.24555 press_A1=-6.524518e-02 press_A2=5.430179e-08
+CTD_cal_date=[12/07/2001]
+cond_g=-4.09700020e+00 cond_h=4.90273419e-01 cond_i=6.58576977e-04 cond_j=-2.46017159e-06 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.20839244e-03 temp_h=5.91775059e-04 temp_i=-3.18337943e-07 temp_j=-2.92764296e-06 temp_f0=1000.00
+press_M=-0.06524 press_B=248.84 press_A0=248.46950 press_A1=-6.523024e-02 press_A2=5.705084e-08
+CTD_cal_date=[07/23/2002]
+cond_g=-4.07217197e+00 cond_h=4.93220288e-01 cond_i=-1.73830595e-03 cond_j=1.17027954e-04 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.21018983e-03 temp_h=5.95970699e-04 temp_i=2.89949389e-06 temp_j=-2.11669928e-06 temp_f0=1000.00
+press_M=-0.06525 press_B=248.78 press_A0=248.42024 press_A1=-6.524145e-02 press_A2=5.500284e-08
+CTD_cal_date=[06/16/2004]
+cond_g=-4.00753104e+00 cond_h=4.78066977e-01 cond_i=1.21247275e-03 cond_j=-3.18226763e-05 cond_CPcor=-9.5700e-08 cond_CTcor=3.2500e-06
+temp_g=4.21128850e-03 temp_h=5.98809978e-04 temp_i=5.39242925e-06 temp_j=-1.40400219e-06 temp_f0=1000.00
+##### PREVIOUS Pressure coefficients #####
+press_M=-0.06525 press_B=248.78 press_A0=248.42024 press_A1=-6.524145e-02 press_A2=5.500284e-08
+CTD_cal_date=[08/11/2006]
+cond_g=-3.99717845e+00 cond_h=4.75838084e-01 cond_i=1.65197598e-03 cond_j=-5.69471001e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.21227756e-03 temp_h=6.00659159e-04 temp_i=6.36718860e-06 temp_j=-1.279546e-06 temp_f0=1000.00
+press_M=-6.523908e-02 press_B=2.486816e+02 press_A0=2.483534e+02 press_A1=-6.525399e-02 press_A2=5.712675e-08
+
+Sensor=SBE19 SN=2980
+CTD_cal_date=[05/16/2000]
+cond_g=-4.21688805e+00 cond_h=5.04485182e-01 cond_i=7.32306780e-04 cond_j=-6.03155813e-06 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.21292240e-03 temp_h=6.07432740e-04 temp_i=6.59166770e-06 temp_j=-1.30375142e-06 temp_f0=1000.00
+press_M=-0.06563 press_B=250.37 press_A0=250.09713 press_A1=-6.562732e-02 press_A2=4.209915e-08
+CTD_cal_date=[11/29/2001]
+cond_g=-4.21457323e+00 cond_h=5.03759904e-01 cond_i=9.08299560e-04 cond_j=-1.46072079e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.21258962e-03 temp_h=6.06257427e-04 temp_i=5.41383524e-06 temp_j=-1.66409098e-06 temp_f0=1000.00
+press_M=-0.06564 press_B=250.69 press_A0=250.41663 press_A1=-6.562817e-02 press_A2=4.283999e-08
+CTD_cal_date=[05/01/2003]
+##### PREVIOUS Cond and Temp coefficients #####
+cond_g=-4.21457323e+00 cond_h=5.03759904e-01 cond_i=9.08299560e-04 cond_j=-1.46072079e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_g=4.21258962e-03 temp_h=6.06257427e-04 temp_i=5.41383524e-06 temp_j=-1.66409098e-06 temp_f0=1000.00
+press_M=-0.06564 press_B=250.50 press_A0=250.16375 press_A1=-6.562962e-02 press_A2=5.110122e-08
+CTD_cal_date=[07/28/2004]
+cond_g=-4.20837357e+00 cond_h=5.02337236e-01 cond_i=1.18684486e-03 cond_j=-2.87481483e-05 cond_CPcor=-9.5700e-08 cond_CTcor=3.2500e-06
+temp_g=4.21284253e-03 temp_h=6.06964229e-04 temp_i=6.08163311e-06 temp_j=-1.47177147e-06 temp_f0=1000.00
+press_M=-6.560692e-02 press_B=2.504131e+02 press_A0=2.501684e+02 press_A1=-6.562023e-02 press_A2=4.311153e-08
+CTD_cal_date=[10/11/2006]
+cond_g=-4.20068179e+00 cond_h=5.00614825e-01 cond_i=1.49289602e-03 cond_j=-4.09952431e-05 cond_CPcor=-9.5700e-08 cond_CTcor=3.2500e-06
+temp_g=4.21438207e-03 temp_h=6.10518451e-04 temp_i=8.73847490e-06 temp_j=-8.18180722e-07 temp_f0=1000.00
+press_M=-6.56102e-02 press_B=2.505172e+02 press_A0=2.50277e+02 press_A1=-6.562334e-02 press_A2=4.229803e-08
+
+Sensor=SBE19Plus SN=4679
+CTD_cal_date=[09/01/2004]
+cond_g=-1.053354e+00 cond_h=1.301013e-01 cond_i=-2.596787e-04 cond_j=3.518463e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.248081e-03 temp_a1=2.634698e-04 temp_a2=-7.188013e-08 temp_a3=1.535398e-07
+press_PA0=2.611637e-02 press_PA1=4.900363e-04 press_PA2=-2.412322e-12 press_PTempPA0=-6.558610e+01 press_PTempPA1=5.184572e+01 press_PTempPA2=-5.182338e-01
+press_PTCA0=5.253460e+05 press_PTCA1=6.493157e+00 press_PTCA2=-1.796710e-01 press_PTCB0=2.502725e+01 press_PTCB1=1.05e-03 press_PTCB2=0
+CTD_cal_date=[08/13/2005]
+cond_g=-1.053202 cond_h=1.301042e-001 cond_i=-2.711827e-004 cond_j=3.630768e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-06
+temp_a0=1.261541e-03 temp_a1=2.586172e-04 temp_a2=5.100671e-07 temp_a3=1.303139e-07
+press_PA0=3.660063e-02 press_PA1=4.897145e-04 press_PA2=-1.087509e-012 press_PTempPA0=-6.512428e+01 press_PTempPA1=5.111434e+01 press_PTempPA2=-2.880339e-01
+press_PTCA0=5.254001e+05 press_PTCA1=5.068575e+00 press_PTCA2=-7.168770e-02 press_PTCB0=2.502725e+01 press_PTCB1=1.05e-03 press_PTCB2=0
+CTD_cal_date=[03/02/2006]
+##### PREVIOUS Cond and Temp coefficients #####
+cond_g=-1.053202 cond_h=1.301042e-001 cond_i=-2.711827e-004 cond_j=3.630768e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-06
+temp_a0=1.261541e-03 temp_a1=2.586172e-04 temp_a2=5.100671e-07 temp_a3=1.303139e-07
+press_PA0=3.506038e-02 press_PA1=4.903281e-04 press_PA2=-2.339673e-012 press_PTempPA0=-6.512428e+01 press_PTempPA1=5.111434e+01 press_PTempPA2=-2.880339e-01
+press_PTCA0=5.252162e+05 press_PTCA1=5.068575e+00 press_PTCA2=-7.168770e-02 press_PTCB0=2.502725e+01 press_PTCB1=1.05e-03 press_PTCB2=0
+CTD_cal_date=[07/20/2006]
+cond_g=-1.052729e+00 cond_h=1.298958e-01 cond_i=-2.062708e-04 cond_j=3.178284e-05 cond_CPcor=-9.5700e-08 cond_CTcor=3.2500e-06
+temp_a0=1.269074e-03 temp_a1=2.558780e-04 temp_a2=8.414307e-07 temp_a3=1.169555e-07
+press_PA0=1.431339e-02 press_PA1=4.902737e-04 press_PA2=-1.816488e-12 press_PTempPA0=-6.551690e+01 press_PTempPA1=5.168082e+01 press_PTempPA2=-4.787553e-01
+press_PTCA0=5.252144e+05 press_PTCA1=6.914286e+00 press_PTCA2=-2.490288e-01 press_PTCB0=2.502725e+01 press_PTCB1=1.05e-03 press_PTCB2=0
+CTD_cal_date=[02/04/2014]
+cond_g=-1.052264e+000 cond_h=1.298299e-001 cond_i=-2.017107e-004 cond_j=3.112051e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.261956e-003 temp_a1=2.584745e-004 temp_a2=5.268881e-007 temp_a3=1.296055e-007
+press_PA0=3.679481e-002 press_PA1=4.907673e-004 press_PA2=-2.288909e-012 press_PTempPA0=-6.562215e+001 press_PTempPA1=5.168494e+001 press_PTempPA2=-4.794047e-001
+press_PTCA0=5.252606e+005 press_PTCA1=8.277432e+000 press_PTCA2=-2.151471e-001 press_PTCB0=2.502725e+001 press_PTCB1=1.050000e-003 press_PTCB2=0.000000e+000
+
+Sensor=SBE19Plus SN=4790
+CTD_cal_date=[07/28/2005]
+cond_g=-1.036400e+00 cond_h=1.359323e-01 cond_i=-3.181865e-04 cond_j=4.124755e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.293590e-03 temp_a1=2.585492e-04 temp_a2=2.092032e-07 temp_a3=1.401460e-07
+press_PA0=6.710824e-02 press_PA1=1.543283e-03 press_PA2=6.275803e-12 press_PTempPA0=-7.223180e+01 press_PTempPA1=4.968482e+01 press_PTempPA2=-1.362252e-01
+press_PTCA0=5.155547e+05 press_PTCA1=3.122647e+00 press_PTCA2=-6.466558e-02 press_PTCB0=2.438775e+01 press_PTCB1=-3.65e-03 press_PTCB2=0
+CTD_cal_date=[08/15/2006]
+cond_g=-1.035766e+00 cond_h=1.356692e-01 cond_i=-2.380378e-04 cond_j=3.561942e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.301816e-03 temp_a1=2.555767e-04 temp_a2=5.659371e-07 temp_a3=1.258682e-07
+press_PA0=1.001129e-02 press_PA1=1.543685e-03 press_PA2=6.510983e-12 press_PTempPA0=-7.178436e+01 press_PTempPA1=4.916260e+01 press_PTempPA2=-9.578146e-03
+press_PTCA0=5.155430e+05 press_PTCA1=2.031429e+00 press_PTCA2=-8.139402e-02 press_PTCB0=2.438775e+01 press_PTCB1=-3.65e-03 press_PTCB2=0
+CTD_cal_date=[03/18/2008]
+cond_g=-1.035488e+000 cond_h=1.355503e-001 cond_i=-1.997302e-004 cond_j=3.247659e-005 cond_CPcor=-9.57e-008 cond_CTcor=3.25e-006
+temp_a0=1.292851e-003 temp_a1=2.588487e-004 temp_a2=1.693749e-007 temp_a3=1.418319e-007 
+press_PA0=9.131556e-002 press_PA1=1.543912e-003 press_PA2=7.439910e-012 press_PTempPA0=-7.183199e+001 press_PTempPA1=4.916101e+001 press_PTempPA2=-9.155566e-003
+press_PTCA0=5.155351e+005 press_PTCA1=5.717956e+000 press_PTCA2=-1.533877e-001 press_PTCB0=2.438775e+001 press_PTCB1=-3.65e-03 press_PTCB2=0
+CTD_cal_date=[07/23/2015]
+cond_g=-1.035989e+000 cond_h=1.356282e-001 cond_i=-2.040722e-004 cond_j=3.321656e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.341438e-003 temp_a1=2.406513e-004 temp_a2=2.437086e-006 temp_a3=4.786166e-008 
+press_PA0=5.114553e-002 press_PA1=1.545155e-003 press_PA2=6.713993e-012 press_PTempPA0=-7.202902e+001 press_PTempPA1=4.916142e+001 press_PTempPA2=-9.229277e-003
+press_PTCA0=5.155128e+005 press_PTCA1=3.198683e+000 press_PTCA2=-8.832785e-002 press_PTCB0=2.438775e+001 press_PTCB1=-3.65e-03 press_PTCB2=0
+
+Sensor=SBE19Plus SN=4791
+CTD_cal_date=[04/21/2005]
+cond_g=-1.03109e+00 cond_h=1.575366e-01 cond_i=-4.712478e-04 cond_j=6.059182e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.258164e-03 temp_a1=2.673048e-04 temp_a2=-4.598752e-07 temp_a3=1.729692e-07
+press_PA0=-1.470815e-02 press_PA1=1.543549e-03 press_PA2=7.648935e-12 press_PTempPA0=-7.38472e+01 press_PTempPA1=4.916135e+01 press_PTempPA2=-9.059298e-03
+press_PTCA0=5.150994e+05 press_PTCA1=2.331787e+00 press_PTCA2=-1.343168e-01 press_PTCB0=2.430837e+001 press_PTCB1=-3.25e-04 press_PTCB2=0
+CTD_cal_date=[08/18/2007]
+cond_g=-1.029499e-00 cond_h=1.569024e-01 cond_i=-2.877168e-04 cond_j=4.823308e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.270813e-03 temp_a1=2.62634e-04 temp_a2=1.107042e-07 temp_a3=1.498709e-07
+press_PA0=6.483725e-02 press_PA1=1.545164e-03 press_PA2=5.258325e-12 press_PTempPA0=-7.375718e+01 press_PTempPA1=4.896742e+01 press_PTempPA2=1.829849e-02
+press_PTCA0=5.150923e+05 press_PTCA1=4.653028e-00 press_PTCA2=-1.245394e-01 press_PTCB0=2.430837e+01 press_PTCB1=-3.25e-04 press_PTCB2=0
+CTD_cal_date=[09/09/2015]
+cond_g=-1.032502e+000 cond_h=1.577912e-001 cond_i=-4.976425e-004 cond_j=6.360552e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.275244e-003 temp_a1=2.609177e-004 temp_a2=3.324306e-007 temp_a3=1.403244e-007 
+press_PA0=1.162539e-002 press_PA1=1.546473e-003 press_PA2=6.975308e-012 press_PTempPA0=-7.385431e+001 press_PTempPA1=4.896655e+001 press_PTempPA2=1.848062e-002
+press_PTCA0=5.150898e+005 press_PTCA1=2.561108e+000 press_PTCA2=-9.799208e-002 press_PTCB0=2.430837e+001 press_PTCB1=-3.250000e-004 press_PTCB2=0.000000e+000
+
+Sensor=SBE19Plus SN=4928
+CTD_cal_date=[02/10/2006]
+cond_g=-9.990973e-01 cond_h=1.358499e-01 cond_i=-1.500595e-04 cond_j=2.998458e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.248401e-03 temp_a1=2.571757e-04 temp_a2=5.846481e-07 temp_a3=1.262317e-07
+press_PA0=5.473701e-02 press_PA1=1.538078e-03 press_PA2=1.131865e-11 press_PTempPA0=-6.224922e+01 press_PTempPA1=5.144325e+01 press_PTempPA2=-4.89008e-02
+press_PTCA0=5.251472e+05 press_PTCA1=2.521209e+00 press_PTCA2=-4.237886e-02 press_PTCB0=2.522125e+01 press_PTCB1=-9.5e-04 press_PTCB2=0
+CTD_cal_date=[02/06/2008]
+cond_g=-9.994383e-01 cond_h=1.358709e-01 cond_i=-1.39342e-04 cond_j=2.855224e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.23125e-03 temp_a1=2.633204e-04 temp_a2=-1.474985e-07 temp_a3=1.552306e-07
+press_PA0=-3.854915e-02 press_PA1=1.53908e-03 press_PA2=9.922197e-12 press_PTempPA0=-6.328533e+01 press_PTempPA1=5.275258e+01 press_PTempPA2=-4.666255e-01
+press_PTCA0=5.251062e+05 press_PTCA1=2.232785e-01 press_PTCA2=-6.708509e-02 press_PTCB0=2.522125e+01 press_PTCB1=-9.5e-04 press_PTCB2=0
+CTD_cal_date=[01/28/2014]
+cond_g=-9.718335e-001 cond_h=1.320990e-001 cond_i=-1.252584e-004 cond_j=2.759445e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.240724e-003 temp_a1=2.598607e-004 temp_a2=2.726114e-007 temp_a3=1.382528e-007
+press_PA0=4.000018e-002 press_PA1=1.540071e-003 press_PA2=1.126195e-011 press_PTempPA0=-6.305553e+001 press_PTempPA1=5.219166e+001 press_PTempPA2=-2.950254e-001
+press_PTCA0=5.250521e+005 press_PTCA1=2.254502e+000 press_PTCA2=-4.832265e-002 press_PTCB0=2.522125e+001 press_PTCB1=-9.500000e-004 press_PTCB2=0.000000e+000
+
+Sensor=SBE19Plus SN=5071
+CTD_cal_date=[10/23/2006]
+cond_g=-9.863322e-01 cond_h=1.463381e-01 cond_i=-2.930954e-04 cond_j=4.511e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.245917e-03 temp_a1=2.582787e-04 temp_a2=6.489894e-07 temp_a3=1.241274e-07
+press_PA0=2.505605e-02 press_PA1=1.540115e-03 press_PA2=1.248686e-11 press_PTempPA0=-6.775471e+01 press_PTempPA1=5.07429e+01 press_PTempPA2=-1.580315e-01
+press_PTCA0=5.249165e+05 press_PTCA1=4.689807e+00 press_PTCA2=-1.824470e-01 press_PTCB0=2.572938e+01 press_PTCB1=8.75e-04 press_PTCB2=0
+CTD_cal_date=[09/09/2015]
+cond_g=-9.867483e-001 cond_h=1.464179e-001 cond_i=-3.089825e-004 cond_j=4.775492e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.246206e-003 temp_a1=2.581535e-004 temp_a2=6.674424e-007 temp_a3=1.232513e-007
+press_PA0=5.824522e-002 press_PA1=1.542761e-003 press_PA2=1.179242e-011 press_PTempPA0=-6.808657e+001 press_PTempPA1=5.091152e+001 press_PTempPA2=-1.963365e-001
+press_PTCA0=5.249178e+005 press_PTCA1=5.198773e+000 press_PTCA2=-1.501752e-001 press_PTCB0=2.572938e+001 press_PTCB1=8.750000e-004 press_PTCB2=0.000000e+000
+
+Sensor=SBE19Plus SN=5255
+CTD_cal_date=[11/01/2007]
+cond_g=-9.932231e-01 cond_h=1.540764e-01 cond_i=-4.559171e-04 cond_j=5.852935e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.291532e-03 temp_a1=2.596665e-04 temp_a2=9.986950e-08 temp_a3=1.417540e-07
+press_PA0=6.348952e-02 press_PA1=2.553514e-03 press_PA2=1.774324e-11 press_PTempPA0=-5.963573e+01 press_PTempPA1=5.389693e+01 press_PTempPA2=-3.362581e-01
+press_PTCA0=5.206710e+05 press_PTCA1=3.857583e+00 press_PTCA2=-1.096865e-01 press_PTCB0=2.610038e+01 press_PTCB1=8.75e-04 press_PTCB2=0
+CTD_cal_date=[04/17/2015]
+cond_g=-9.942548e-001 cond_h=1.542600e-001 cond_i=-4.730887e-004 cond_j=6.086263e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.295496e-003 temp_a1=2.579919e-004 temp_a2=3.329306e-007 temp_a3=1.311011e-007 
+press_PA0=1.400533e-001 press_PA1=2.556749e-003 press_PA2=1.636033e-011 press_PTempPA0=-5.990649e+001 press_PTempPA1=5.390227e+001 press_PTempPA2=-3.370336e-001
+press_PTCA0=5.206077e+005 press_PTCA1=4.787541e+000 press_PTCA2=-1.025950e-001 press_PTCB0=2.610038e+001 press_PTCB1=8.750000e-004 press_PTCB2=0.000000e+000
+
+Sensor=SBE19PlusV2 SN=6087
+CTD_cal_date=[06/25/2008]
+cond_g=-9.797015e-01 cond_h=1.567991e-01 cond_i=-4.699383e-04 cond_j=6.168073e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06
+temp_a0=1.253285e-03 temp_a1=2.548863e-04 temp_a2=2.273602e-07 temp_a3=1.260670e-07
+press_PA0=2.928531e-02 press_PA1=1.537868e-03 press_PA2=1.077118e-11 press_PTempPA0=-6.203124e+01 press_PTempPA1=5.474909e+01 press_PTempPA2=-6.371266e-01
+press_PTCA0=5.245773e+05 press_PTCA1=3.407313e+00 press_PTCA2=-1.157425e-01 press_PTCB0=2.611750e+01 press_PTCB1=-7.000000e-04 press_PTCB2=0
+CTD_cal_date=[01/24/2014]
+cond_g=-9.814853e-001 cond_h=1.572603e-001 cond_i=-5.672022e-004 cond_j=7.049779e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.256495e-003 temp_a1=2.536995e-004 temp_a2=3.723084e-007 temp_a3=1.201973e-007
+press_PA0=2.885017e-002 press_PA1=1.538314e-003 press_PA2=9.559877e-012 press_PTempPA0=-6.190196e+001 press_PTempPA1=5.392807e+001 press_PTempPA2=-3.373218e-001 
+press_PTCA0=5.244992e+005 press_PTCA1=3.286098e+000 press_PTCA2=-1.163976e-001 press_PTCB0=2.611750e+001 press_PTCB1=-7.000000e-004 press_PTCB2=0.000000e+000
+CTD_cal_date=[07/02/2015]
+cond_g=-9.816608e-001 cond_h=1.571216e-001 cond_i=-5.144050e-004 cond_j=6.584279e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.253585e-003 temp_a1=2.547148e-004 temp_a2=2.547973e-007 temp_a3=1.247170e-007 
+press_PA0=4.272336e-002 press_PA1=1.538584-e003 press_PA2=8.831618e-012 press_PTempPA0=-6.222361e+001 press_PTempPA1=5.452902e+001 press_PTempPA2=-5.607284e-001
+press_PTCA0=5.244892e+005 press_PTCA1=3.966077e+000 press_PTCA2=-1.292858e-001 press_PTCB0=2.611750e+001 press_PTCB1=-7.000000e-004 press_PTCB2=0
+
+Sensor=SBE19PlusV2 SN=6621
+CTD_cal_date=[08/10/2010]
+cond_g=-1.030248 cond_h=1.478734e-01 cond_i=-2.853831e-04 cond_j=4.181409e-05 cond_CPcor=-9.57e-08 cond_CTcor=3.25e-06        
+temp_a0=1.238421e-03 temp_a1=2.592137e-04 temp_a2=-9.985929e-08 temp_a3=1.406695e-07
+press_PA0=2.696657e-01 press_PA1=1.549046e-03 press_PA2=7.089741e-12 press_PTempPA0=-6.123850e+01 press_PTempPA1=5.309393e+01 press_PTempPA2=-4.394816e-01 
+press_PTCA0=5.248186e+05 press_PTCA1=1.097004e+01 press_PTCA2=-1.227499e-01 press_PTCB0=2.497038e+01 press_PTCB1=1.075000e-03 press_PTCB2=0
+CTD_cal_date=[01/28/2014]
+cond_g=-1.029989e+000 cond_h=1.477409e-001 cond_i=-2.455428e-004 cond_j=3.968002e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.237311e-003 temp_a1=2.596187e-004 temp_a2=-1.485269e-007 temp_a3=1.425978e-007
+press_PA0=2.581720e-001 press_PA1=1.548932e-003 press_PA2=7.519365e-012 press_PTempPA0=-6.140092e+001 press_PTempPA1=5.252309e+001 press_PTempPA2=-2.281498e-001
+press_PTCA0=5.247570e+005 press_PTCA1=1.287470e+001 press_PTCA2=-2.261528e-001 press_PTCB0=2.497038e+001 press_PTCB1=1.075000e-003 press_PTCB2=0.000000e+000
+CTD_cal_date=[04/17/2015]
+cond_g=-1.031788e+000 cond_h=1.482060e-001 cond_i=-3.365421e-004 cond_j=4.456998e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.254560e-003 temp_a1=2.533682e-004 temp_a2=6.045011e-007 temp_a3=1.124404e-007 
+press_PA0=2.765291e-001 press_PA1=1.549515e-003 press_PA2=5.875911e-012 press_PTempPA0=-6.209226e+001 press_PTempPA1=5.353335e+001 press_PTempPA2=-5.772034e-001
+press_PTCA0=5.247510e+005 press_PTCA1=1.109095e+001 press_PTCA2=-1.349766e-001 press_PTCB0=2.497038e+001 press_PTCB1=1.075000e-003 press_PTCB2=0.000000e+000
+[CTD_cal_date=11/07/2015]
+cond_g=-1.030971e+000 cond_h=1.479330e-001 cond_i=-2.633260e-004 cond_j=3.939891e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.244542e-003 temp_a1=2.569925e-004 temp_a2=1.681503e-007 temp_a3=1.299119e-007
+press_PA0=2.706059e-001 press_PA1=1.548967e-003 press_PA2=8.038639e-012 press_PTempPA0=-6.155992e+001 press_PTempPA1=5.270402e+001 press_PTempPA2=-2.931912e-001
+press_PTCA0=5.247347e+005 press_PTCA1=1.116465e+001 press_PTCA2=-1.404346e-001 press_PTCB0=2.497038e+001 press_PTCB1=1.075000e-003 press_PTCB2=0.000000e+000
+
+Sensor=SBE19PlusV2 SN=7507
+CTD_cal_date=[06/29/2014]
+cond_g=-9.951200e-001 cond_h=1.445170e-001 cond_i=-1.855722e-004 cond_j=3.360842e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.263019e-003 temp_a1=2.736553e-004 temp_a2=-1.136937e-006 temp_a3=1.820715e-007
+press_PA0=9.388542e-002 press_PA1=1.554078e-003 press_PA2=5.263362e-012 press_PTempPA0=-6.769868e+001 press_PTempPA1=5.112716e+001 press_PTempPA2=-2.551678e-001
+press_PTCA0=5.248014e+005 press_PTCA1=4.714892e+000 press_PTCA2=-8.527849e-002 press_PTCB0=2.482963e+001 press_PTCB1=7.250000e-004 press_PTCB2=0.000000e+000
+CTD_cal_date=[10/17/2015]
+cond_g=-1.000752e+000 cond_h=1.456146e-001 cond_i=-4.351245e-004 cond_j=5.017383e-005 cond_CPcor=-9.5700e-008 cond_CTcor=3.2500e-006
+temp_a0=1.261662e-003 temp_a1=2.739099e-004 temp_a2=-1.138846e-006 temp_a3=1.809927e-007 
+press_PA0=8.498344e-002 press_PA1=1.554035e-003 press_PA2=4.524459e-012 press_PTempPA0=-6.784137e+001 press_PTempPA1=5.134446e+001 press_PTempPA2=-3.226139e-001
+press_PTCA0=5.246884e+005 press_PTCA1=4.743677e+000 press_PTCA2=-9.713589e-002 press_PTCB0=2.482963e+001 press_PTCB1=7.250000e-004 press_PTCB2=0.000000e+000
+
+#Sensor=YSI SN=230895
+#O2_cal_date=[03/21/2000]
+#O2_Soc=0.0842 O2_Boc=-0.0054 O2_Voffset=??? O2_TCor=-0.033 O2_PCor=1.500e-04
+#O2_cal_date=[04/19/2001]
+#O2_Soc=0.0733 O2_Boc=-0.0084 O2_Voffset=??? O2_TCor=-0.033 O2_PCor=1.500e-04
+
+Sensor=SBE43 SN=0015
+O2_cal_date=[04/06/2001]
+O2_Soc=0.3165 O2_Boc=0.0126 O2_Voffset=-0.6303 O2_TCor=1.5e-03 O2_PCor=1.500e-04
+O2_cal_date=[05/02/2003]
+O2_Soc=0.3466 O2_Boc=0.0000 O2_Voffset=-0.6215 O2_TCor=1.4e-03 O2_PCor=1.350e-04
+O2_cal_date=[03/30/2005]
+O2_Soc=0.3607 O2_Boc=0.0000 O2_Voffset=-0.6028 O2_TCor=2.2e-03 O2_PCor=1.350e-04
+O2_cal_date=[11/02/2006]
+O2_Soc=0.4165 O2_Boc=0.0000 O2_Voffset=-0.6474 O2_TCor=0 O2_PCor=1.350e-04
+O2_cal_date=[02/20/2014]
+O2_Soc=0.3879 O2_Voffset=-0.6315 O2_tau20=1.03 O2_A=-3.8301e-003 O2_B=1.6445e-004 O2_C=-2.4536e-006 O2_E=0.036
+O2_cal_date=[09/09/2015] 
+O2_Soc=0.3559 O2_Voffset=-0.6296 O2_tau20=0.89 O2_A=-3.9039e-003 O2_B=2.0517e-004 O2_C=-3.2824e-006 O2_E=0.036
+
+### LOANER...NOT IN ORCA INVENTORY ###
+Sensor=SBE43 SN=0070
+O2_cal_date=[08/28/2000]
+O2_Soc=0.4072 O2_Boc=-0.0095 O2_Voffset=0 O2_TCor=0.0012 O2_PCor=1.500e-04
+
+Sensor=SBE43 SN=0744
+O2_cal_date=[09/22/2004]
+O2_Soc=0.4491 O2_Boc=0.0000 O2_Voffset=-0.4970 O2_TCor=-2.0e-04 O2_PCor=1.350e-04
+O2_cal_date=[08/23/2006]
+O2_Soc=0.3490 O2_Boc=0.0000 O2_Voffset=-0.5025 O2_TCor=9.0e-04 O2_PCor=1.350e-04
+O2_cal_date=[03/12/2008]
+O2_Soc=0.3614 O2_Boc=0.0000 O2_Voffset=-0.4930 O2_TCor=1.1e-03 O2_PCor=1.350e-04
+O2_cal_date=[02/25/2014]
+O2_Soc=0.3700 O2_Voffset=-0.5003 O2_tau20=0.91 O2_A=-3.1072e-003 O2_B=1.1754e-004 O2_C=-2.0710e-006 O2_E=0.036
+O2_cal_date=[07/17/2015]
+O2_Soc=0.3718 O2_Voffset=-0.5027 O2_tau20=1.25 O2_A=-2.7214e-003 O2_B=1.3565e-004 O2_C=-2.2585e-006 O2_E=0.036
+
+Sensor=SBE43 SN=0834
+O2_cal_date=[05/24/2005]
+O2_Soc=0.4057 O2_Boc=0.0000 O2_Voffset=-0.5085 O2_TCor=1.2e-03 O2_PCor=1.350e-04
+O2_cal_date=[02/13/2007]
+O2_Soc=0.4001 O2_Boc=0.0000 O2_Voffset=-0.5263 O2_TCor=6e-04 O2_PCor=1.350e-04
+O2_cal_date=[02/12/2014]
+O2_Soc=0.5256 O2_Voffset=-0.5261 O2_tau20=1.59 O2_A=-3.5490e-003 O2_B=1.3636e-004 O2_C=-2.1139e-006 O2_E=0.036
+O2_cal_date=[08/06/2015]
+O2_Soc=0.5344 O2_Voffset=-0.5251 O2_tau20=1.41 O2_A=-3.6462e-003 O2_B=1.7426e-004 O2_C=-2.9308e-006 O2_E=0.036
+
+Sensor=SBE43 SN=0893
+O2_cal_date=[08/12/2005]
+O2_Soc=0.4116 O2_Boc=0.0000 O2_Voffset=-0.5348 O2_TCor=8.0e-04 O2_PCor=1.350e-04
+O2_cal_date=[03/16/2013]
+O2_Soc=0.4501 O2_Voffset=-0.5331 O2_tau20=0.95 O2_A=-2.3878e-003 O2_B=8.5509e-005 O2_C=-1.7946e-006 O2_E=0.036
+O2_cal_date=[08/06/2015]
+O2_Soc=0.5096 O2_Voffset=-0.5359 O2_tau20=1.45 O2_A=-3.5841e-003 O2_B=1.4317e-004 O2_C=-2.3886e-006 O2_E=0.036
+
+Sensor=SBE43 SN=0973
+O2_cal_date=[02/28/2006]
+O2_Soc=0.4085 O2_Boc=0.0000 O2_Voffset=-0.5016 O2_TCor=1.0e-03 O2_PCor=1.350e-04
+O2_cal_date=[06/02/2007]
+O2_Soc=0.4112 O2_Boc=0.0000 O2_Voffset=-0.4854 O2_TCor=2.0e-03 O2_PCor=1.350e-04
+O2_cal_date=[02/19/2014]
+O2_Soc=0.5338 O2_Voffset=-0.5023 O2_tau20=1.18 O2_A=-4.0856e-003 O2_B=1.7115e-004 O2_C=-3.2030e-006 O2_E=0.036
+O2_cal_date=[10/13/2015]
+O2_Soc=0.5166 O2_Voffset=-0.5003 O2_tau20=1.12 O2_A=-3.2669e-003 O2_B=1.3236e-004 O2_C=-2.4183e-006 O2_E=0.036
+
+Sensor=SBE43 SN=1328
+O2_cal_date=[10/23/2007]
+O2_Soc=0.3960 O2_Boc=0.0000 O2_Voffset=-0.4859 O2_TCor=1.1e-03 O2_PCor=1.350e-04
+O2_cal_date=[02/25/2014]
+O2_Soc=0.5035 O2_Voffset=-0.4904 O2_tau20=1.75 O2_A=-3.0544e-003 O2_B=1.5017e-004 O2_C=-2.4131e-006 O2_E=0.036
+O2_cal_date=[09/09/2015]
+O2_Soc=0.4110 O2_Voffset=-0.4866 O2_tau20=0.87 O2_A=-3.7674e-003 O2_B=2.2273e-004 O2_C=-3.7187e-006 O2_E=0.036
+
+Sensor=SBE43 SN=1457
+O2_cal_date=[06/20/2008]
+O2_Soc=0.3704 O2_Voffset=-0.5106 O2_tau20=1.26 O2_A=-1.6150e-03 O2_B=2.4853e-04 O2_C=-5.1506e-06 O2_E=0.036
+O2_cal_date=[02/25/2014]
+O2_Soc=0.4464 O2_Voffset=-0.5088 O2_tau20=1.70 O2_A=-2.9116e-03 O2_B=1.4074e-04 O2_C=-2.2083e-06 O2_E=0.036
+O2_cal_date=[09/09/2015]
+O2_Soc=0.4363 O2_Voffset=-0.5077 O2_tau20=1.20 O2_A=-3.4116e-003 O2_B=1.9948e-004 O2_C=-3.3688e-006 O2_E=0.036
+
+Sensor=SBE43 SN=1905
+O2_cal_date=[08/21/2010]
+O2_Soc=0.5040 O2_Voffset=-0.4836 O2_tau20=1.68 O2_A=-4.0777e-03 O2_B=1.7952e-04 O2_C=-2.6579e-06 O2_E=0.036
+O2_cal_date=[03/23/2013]
+O2_Soc=0.4132 O2_Voffset=-0.4868 O2_tau20=0.96 O2_A=-2.67360e-03 O2_B=1.37880e-04 O2_C=-2.45190e-06 O2_E=0.036
+O2_cal_date=[10/13/2015]
+O2_Soc=0.4989 O2_Voffset=-0.4902 O2_tau20=1.17 O2_A=-4.2239e-03 O2_B=2.1590e-04 O2_C=-3.6534e-06 O2_E=0.036
+
+Sensor=WetStar SN=WS3S-586P
+Chlor_cal_date=[11/05/1999]
+Chlor_offset=0.065 Chlor_scale_factor=16.265
+Chlor_cal_date=[03/21/2006]
+Chlor_offset=0.068 Chlor_scale_factor=15.5
+Chlor_cal_date=[07/29/2015]
+Chlor_offset=0.075 Chlor_scale_factor=6.1
+
+Sensor=WetStar SN=WS3S-668P
+Chlor_cal_date=[06/30/2000]
+Chlor_offset=0.068 Chlor_scale_factor=16.920
+Chlor_cal_date=[05/08/2006]
+Chlor_offset=0.081 Chlor_scale_factor=15.9
+Chlor_cal_date=[07/21/2015]
+Chlor_offset=0.072 Chlor_scale_factor=6.2
+
+Sensor=WetStar SN=WS3S-1117
+Chlor_cal_date=[04/26/2005]
+Chlor_offset=0.047 Chlor_scale_factor=16.00
+Chlor_cal_date=[01/17/2006]
+Chlor_offset=0.049 Chlor_scale_factor=14.8
+Chlor_cal_date=[09/01/2015]
+Chlor_offset=0.044 Chlor_scale_factor=5.9
+
+### LOANER...NOT IN ORCA INVENTORY ###
+Sensor=WetStar SN=WS3S-1174
+Chlor_cal_date=[12/15/2005]
+Chlor_offset=0.053 Chlor_scale_factor=16.1
+
+### NO BIOWIPER...NOT IN ORCA ROTATION ###
+Sensor=ECO-FLRT SN=FLRT-210
+Chlor_cal_date=[08/25/2004]
+Chlor_offset=0.070 Chlor_scale_factor=12.9119
+
+### DEAD AS OF 5/10/2015###
+Sensor=ECO-FLNTUS SN=FLNTUS-344
+Chlor_cal_date=[06/24/2005]
+Chlor_offset=0.080 Chlor_scale_factor=10 Turb_offset=0.078 Turb_scale_factor=5
+
+Sensor=ECO-FLNTUS SN=FLNTUS-564
+Chlor_cal_date=[08/22/2006]
+Chlor_offset=0.070 Chlor_scale_factor=10 Turb_offset=0.071 Turb_scale_factor=5  
+Chlor_cal_date=[08/25/2015]
+Chlor_offset=0.071 Chlor_scale_factor=12 Turb_offset=0.070 Turb_scale_factor=5
+
+Sensor=ECO-FLNTUS SN=FLNTUS-744
+Chlor_cal_date=[05/10/2007]
+Chlor_offset=0.064 Chlor_scale_factor=10 Turb_offset=0.086 Turb_scale_factor=5
+Chlor_cal_date=[06/23/2015]
+Chlor_offset=0.062 Chlor_scale_factor=8 Turb_offset=0.085 Turb_scale_factor=5
+
+Sensor=ECO-FLNTUS SN=FLNTUS-1101
+Chlor_cal_date=[07/03/2008]
+Chlor_offset=0.0700 Chlor_scale_factor=10 Turb_offset=0.062 Turb_scale_factor=5
+Chlor_cal_date=[08/25/2015]
+Chlor_offset=0.072 Chlor_scale_factor=9 Turb_offset=0.066 Turb_scale_factor=5
+
+Sensor=ECO-FLNTUS SN=FLNTUS-1947
+Chlor_cal_date=[07/20/2010]
+Chlor_offset=0.068 Chlor_scale_factor=10 Turb_offset=0.067 Turb_scale_factor=5
+Chlor_cal_date=[09/30/2015]
+Chlor_offset=0.070 Chlor_scale_factor=9 Turb_offset=0.069 Turb_scale_factor=5
+
+Sensor=CStar SN=CST-306PR
+Trans_cal_date=[03/21/2000]
+Trans_m=20.7686 Trans_b=-1.8484 Trans_pathlength=0.100
+
+Sensor=CStar SN=CST-1150PR  
+Trans_cal_date=[07/21/2008]
+Trans_m=20.7686 Trans_b=-1.8484 Trans_pathlength=0.100
+
+Sensor=LiCor SN=6796
+PAR_cal_date=[09/30/2004]
+PAR_m=-0.7517380 PAR_b=-3.3614041 PAR_cal_constant=3.25 PAR_multiplier=1 PAR_offset=0
+
+Sensor=QSP-2300 SN=4713
+PAR_cal_date=[08/16/2005]
+PAR_m=1.0 PAR_b=0 PAR_cal_constant=1.7182e+09 PAR_multiplier=1 PAR_offset=-0.8678
+
+Sensor=QSP-2300 SN=4749
+PAR_cal_date=[08/10/2006]
+PAR_m=1.0 PAR_b=0 PAR_cal_constant=1.4556e+09 PAR_multiplier=1 PAR_offset=-1.0028
+PAR_cal_date=[06/04/2007]
+PAR_m=1.0 PAR_b=0 PAR_cal_constant=1.9607e+09 PAR_multiplier=1 PAR_offset=-0.7105
+
+Sensor=QSP-200L SN=4591
+PAR_cal_date=[06/19/2000]
+PAR_m=1.0 PAR_b=0 PAR_cal_constant=1.0823e+09 PAR_multiplier=1 PAR_offset=-1.2814
+PAR_cal_date=[05/04/2007]
+PAR_m=1.0 PAR_b=0 PAR_cal_constant=1.9608e+09 PAR_multiplier=1 PAR_offset=-0.7105
+
+Sensor=ISUS SN=45
+NO3_cal_date=[04/26/2006]
+NO3_A0=-3.246009 NO3_A1=25.80068
+NO3_cal_date=[09/05/2006]  
+NO3_A0=-8.408019 NO3_A1=27.072057
+NO3_cal_date=[02/21/2007]
+NO3_A0=-4.033284 NO3_A1=27.077914
+NO3_cal_date=[03/28/2007]  
+NO3_A0=-8.409025 NO3_A1=27.080044
+NO3_cal_date=[08/27/2007]
+NO3_A0=-4.033284 NO3_A1=27.077914
+NO3_cal_date=[11/15/2007]
+NO3_A0=-8.407484 NO3_A1=27.067710
+NO3_cal_date=[06/23/2008]
+NO3_A0=-8.407303 NO3_A1=27.082712
+NO3_cal_date=[09/10/2008]
+NO3_A0=-8.405552 NO3_A1=27.085374
+NO3_cal_date=[03/31/2009]
+NO3_A0=-8.395287 NO3_A1=27.069390 
+
+Sensor=ISUS-X SN=82
+NO3_cal_date=[02/01/2006]
+NO3_A0=-8.384475 NO3_A1=27.0758
+NO3_cal_date=[07/07/2006]
+NO3_A0=-8.388097 NO3_A1=27.077914
+NO3_cal_date=[07/28/2006]
+NO3_A0=-8.389456 NO3_A1=27.089644
+NO3_cal_date=[09/13/2006]
+NO3_A0=-8.382761 NO3_A1=27.084843
+NO3_cal_date=[05/07/2008]
+NO3_A0=-8.37556 NO3_A1=27.06846
+
+Sensor=ISUS-X SN=114
+NO3_cal_date=[01/09/2007]
+NO3_A0=-8.387695 NO3_A1=27.124347
+NO3_cal_date=[04/24/2007]
+NO3_A0=-8.399531 NO3_A1=27.136116
+NO3_cal_date=[12/17/2007]
+NO3_A0=-8.395392 NO3_A1=27.152712
+NO3_cal_date=[05/27/2008]
+NO3_A0=-8.395834 NO3_A1=27.123275
+NO3_cal_data=[01/16/09]
+NO3_A0=-8.391645 NO3_A1=27.122742 
+NO3_cal_data=[11/03/11]
+NO3_A0=-5.004010 NO3_A1=26.208512
+
+Sensor=ISUS-X SN=166
+NO3_cal_date=[11/28/2007]
+NO3_A0=-8.389640 NO3_A1=27.106714
+NO3_cal_date=[03/31/2008]
+NO3_A0=-8.387953 NO3_A1=27.109923
+NO3_cal_date=[05/15/2008]
+NO3_A0=-8.393159 NO3_A1=27.101908
+NO3_cal_date=[07/21/2008]
+NO3_A0=-8.391834 NO3_A1=27.107785
+NO3_cal_date=[11/12/2008]
+NO3_A0=-8.8381373 NO3_A1=27.106714
+NO3_cal_date=[08/20/2008]
+NO3_A0=-8.381373 NO3_A1=27.106714
+NO3_cal_date=[11/11/2008]
+NO3_A0=-8.391834 NO3_A1=27.107785
+NO3_cal_date=[07/11/2011]
+NO3_A0=-8.383300 NO3_A1=27.105651
+
+Sensor=SEAFET SN=209
+PH_cal_date=[10/21/2014]
+PH_K0i=-1.060551 PH_K2i=-1.101228e-03 PH_K0e=-1.066040 PH_K2e=-1.048245e-03
+
+Sensor=SEAFET SN=217
+PH_cal_date=[10/28/2014]
+PH_K0i=-1.035609 PH_K2i=-1.101228e-03 PH_K0e=-1.040773 PH_K2e=-1.048245e-03
+
+Sensor=SEAFET SN=247
+PH_cal_date=[02/27/2015]   
+PH_K0i=-1.094810 PH_K2i=-1.101228e-03 PH_K0e=-1.101427 PH_K2e=-1.048245e-03
+
+Sensor=SEAFET SN=291             
+PH_cal_date=[05/29/2015]                  
+PH_K0i=-1.077305 PH_K2i=-1.101228e-03 PH_K0e=-1.084219 PH_K2e=-1.048245e-03
+

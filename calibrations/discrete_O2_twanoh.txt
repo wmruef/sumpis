@@ -1,0 +1,1131 @@
+# discrete_calibration_data file format:
+# [01/01/2005 12:00]
+# CAST_type=Profile
+# stnd_ml=1.234 stnd_nrml=0.0250 blnk=0.000 KIO3_ml=4.997 CAST_file=ORCA2_CAST0001.HEX
+# samp=30 101 1.000 fileName (if CAST_type = Discrete or Mixed)
+
+[1/19/2005 12:00]
+CAST_type=Profile
+stnd_ml=1.2655 stnd_nrml=0.025009 blnk=0.005 KIO3_ml=4.997 CAST_file=200501/ORCA1_CAST0001
+samp=5 130 0.497
+samp=5 131 0.589
+samp=5 141 0.546
+samp=30 126 0.466 ## no match in cast file
+samp=30 134 0.473 ## no match in cast file
+samp=30 136 0.480 ## no match in cast file
+
+[02/23/2005 12:00]
+CAST_type=Profile
+stnd_ml=1.2635 stnd_nrml=0.02500 blnk=0.0055 KIO3_ml=4.997 CAST_file=200502/ORCA1_CAST0142
+samp=5 126 1.604          
+samp=5 134 1.602      
+samp=15 141 0.389  
+samp=15 130 0.398      
+samp=25 138 0.501
+samp=25 131 0.475
+
+[03/09/2005 12:00]
+CAST_type=Profile
+stnd_ml=1.2715 stnd_nrml=0.02500 blnk=0.001 KIO3_ml=4.997 CAST_file=200503/ORCA1_CAST0191
+samp=5 138 1.412
+samp=5 131 1.346
+samp=15 126 0.441
+samp=15 130 0.359
+samp=25 134 0.685
+samp=25 141 0.712
+
+[03/21/2005 12:00]
+CAST_type=Profile
+stnd_ml=1.2635 stnd_nrml=0.02500 blnk=0.001 KIO3_ml=4.997 CAST_file=200503/ORCA1_CAST0236
+samp=5 137 1.241           
+samp=5 124 1.269 
+samp=5 142 1.237 
+samp=15 138 0.615  
+samp=15 134 0.626
+samp=15 121 0.593
+samp=25 141 0.450
+samp=25 130 0.427
+samp=25 126 0.420
+
+[04/15/2005 11:00]
+CAST_type=Profile
+stnd_ml=0.620 stnd_nrml=0.02500 blnk=0.012 KIO3_ml=4.997 CAST_file=200504/ORCA1_CAST0424
+samp=5 137 0.525
+samp=5 141 0.530 
+samp=5 121 0.535      
+samp=10 126 0.372  
+samp=10 124 0.378
+samp=10 134 0.371
+samp=25 130 0.196
+samp=25 136 0.192
+samp=25 142 0.220
+
+### no titration data in log book!!! ###
+###[06/03/2005 12:00]
+###CAST_type=Profile
+###stnd_ml= stnd_nrml= blnk= KIO3_ml= CAST_file=200506/ORCA1_CAST0990
+###samp=5 144
+###samp=5 126
+###samp=15 124
+###samp=15 131
+###samp=15 134
+###samp=25 142
+###samp=25 130
+
+### excluded due to potential analysis error (stirring before acidification)
+###[07/15/2005 11:00]
+###CAST_type=Profile
+###stnd_ml=0.3295 stnd_nrml=0.010 blnk=0.00 KIO3_ml=5.0 CAST_file=200507/ORCA1_CAST1468
+###samp=5 141 0.580           
+###samp=5 137 0.527            
+###samp=10 139 .242 
+###samp=10 128 0.237 
+###samp=25 133 0.076
+###samp=25 140 0.086
+
+[08/08/2005 15:00] 
+CAST_type=Profile
+stnd_ml=1.2725 stnd_nrml=0.024951 blnk=0.0125 KIO3_ml=4.997 CAST_file=200508/ORCA1_CAST1753   
+samp=5 140 1.691
+samp=5 141 1.714
+samp=5 143 1.727
+samp=10 121 0.487
+samp=10 128 0.484
+samp=10 139 0.486
+samp=15 133 0.326
+samp=15 137 0.301
+samp=15 138 0.340
+samp=25 122 0.206
+samp=25 123 0.218
+samp=25 129 0.201
+
+[09/11/2005 13:30]
+CAST_type=Profile
+stnd_ml=1.2765 stnd_nrml=0.025029 blnk=0.0135 KIO3_ml=4.997 CAST_file=200509/ORCA1_CAST2450
+samp=5 133 0.448
+samp=5 138 0.462
+samp=5 137 0.452
+samp=15 139 0.152
+samp=15 121 0.142
+samp=15 128 0.154
+samp=25 140 0.178
+samp=25 143 0.182
+samp=25 141 0.175
+
+[10/26/2005 11:30]
+CAST_type=Profile
+stnd_ml=1.258 stnd_nrml=0.024951 blnk=0.000 KIO3_ml=4.997 CAST_file=200510/ORCA1_CAST3041
+samp=5 140 0.990
+samp=5 141 0.992
+samp=5 143 0.999
+samp=10 121 0.516
+samp=10 128 0.518
+samp=10 139 0.518
+samp=15 138 0.489
+samp=15 133 0.496
+samp=15 137 0.488
+samp=25 123 0.532
+samp=25 122 0.516
+samp=25 129 0.502
+
+### excluded from calibration (outlier at all depths, no replicates to verify values)
+###[11/09/2005 15:30]
+###CAST_type=Profile
+###stnd_ml=0.497 stnd_nrml=0.010 blnk=0.000 KIO3_ml=5.0 CAST_file=200511/ORCA1_CAST3208
+###samp=5 253 0.285
+###samp=10 254 0.281
+###samp=15 248 0.286
+###samp=25 247 0.295
+
+[12/06/2005 15:00]
+CAST_type=Profile
+stnd_ml=1.229 stnd_nrml=0.024912 blnk=0.0015 KIO3_ml=4.997 CAST_file=200512/ORCA1_CAST3305     
+samp=5 126 0.783
+samp=5 122 0.797
+samp=5 123 0.842
+samp=10 141 0.565
+samp=10 121 0.542
+samp=10 133 0.561
+samp=15 138 0.494
+samp=15 143 0.504
+samp=15 140 0.479
+samp=25 128 0.430
+samp=25 137 0.428
+samp=25 139 0.425
+
+[01/05/2006 14:00]
+CAST_type=Profile
+stnd_ml=1.2505 stnd_nrml=0.024912 blnk=0.001 KIO3_ml=4.997 CAST_file=200601/ORCA1_CAST3338
+samp=5 18 0.865
+samp=5 5 0.863
+samp=5 10 0.873
+samp=15 8 0.428
+samp=15 17 0.433
+samp=15 12 0.431
+samp=25 7 0.482
+samp=25 4 0.485
+samp=25 13 0.486
+
+[01/12/2006 15:00]
+CAST_type=Profile
+stnd_ml=1.242 stnd_nrml=0.024912 blnk=0.004 KIO3_ml=4.997 CAST_file=200601/ORCA1_CAST3347  
+samp=5 9 0.701
+samp=5 1 0.696
+samp=5 11 0.665
+samp=10 10 0.566
+samp=10 0 0.545
+samp=10 18 0.535
+samp=25 5 0.539
+samp=25 13 0.541
+samp=25 7 0.552
+
+[02/02/2006 16:00]
+CAST_type=Profile
+stnd_ml=1.2615 stnd_nrml=0.02515 blnk=0.0075 KIO3_ml=4.997 CAST_file=200602/ORCA1_CAST3369
+samp=5 10 1.124
+samp=5 9 1.048
+samp=5 5 1.093
+samp=15 14 0.764
+samp=15 16 0.776
+samp=15 0 0.753
+samp=30 8 0.564 ## no match in cast file
+samp=30 15 0.536 ## no match in cast file
+samp=30 4 0.565 ## no match in cast file
+
+[02/23/2006 12:00]
+CAST_type=Profile
+stnd_ml=1.2535 stnd_nrml=0.02515 blnk=0.0025 KIO3_ml=4.997 CAST_file=200602/ORCA1_CAST3390
+samp=5 15 1.460
+samp=5 7 1.506
+samp=5 13 1.522
+samp=15 1 0.890
+samp=15 3 0.889
+samp=15 12 0.891
+samp=25 4 0.758
+samp=25 2 0.751
+samp=25 8 0.749
+
+[03/14/2006 12:00]
+CAST_type=Profile
+stnd_ml=1.2745 stnd_nrml=0.02576 blnk=0.0035 KIO3_ml=4.997 CAST_file=200603/ORCA1_CAST3409
+samp=5 13 1.557
+samp=5 7 1.548
+samp=5 15 1.499
+samp=15 12 0.613
+samp=15 3 0.623
+samp=15 1 0.652
+samp=25 8 0.601
+samp=25 4 0.644
+samp=25 2 0.669
+
+[03/29/2006 15:30]
+CAST_type=Profile
+stnd_ml=1.273 stnd_nrml=0.02576 blnk=0.0055 KIO3_ml=4.997 CAST_file=200603/ORCA1_CAST3461
+samp=5 9 1.642
+samp=5 5 1.671
+samp=5 0 1.655
+samp=15 10 0.909
+samp=15 14 0.900
+samp=15 11 0.883
+samp=25 18 0.504
+samp=25 19 0.509
+samp=25 16 0.508
+
+[04/24/2006 15:00]
+CAST_type=Profile
+stnd_ml=1.2405 stnd_nrml=0.024912 blnk=0.014 KIO3_ml=4.997 CAST_file=200604/ORCA1_CAST3621 
+samp=5 15 2.287
+samp=5 11 2.219
+samp=5 14 2.251
+samp=15 10 1.507
+samp=15 9 1.488
+samp=15 0 1.513
+samp=25 18 0.359
+samp=25 3 0.374
+samp=25 2 0.359
+
+[05/23/2006 12:00]
+CAST_type=Profile
+stnd_ml=1.255 stnd_nrml=0.02515 blnk=0.0005 KIO3_ml=4.997 CAST_file=200605/ORCA1_CAST3967 
+samp=5 7 1.552
+samp=5 10 1.575
+samp=5 19 1.568
+samp=15 11 0.499
+samp=15 4 0.503
+samp=15 9 0.489
+samp=25 14 0.277
+samp=25 8 0.225
+samp=25 0 0.209
+
+[06/09/2006 11:30]
+CAST_type=Profile
+stnd_ml=0.5005 stnd_nrml=0.01000 blnk=0.0025 KIO3_ml=4.997 CAST_file=200606/ORCA1_CAST4124 
+samp=5 11 1.916
+samp=5 10 1.979
+samp=5 14 1.951
+samp=15 16 0.429
+samp=15 8 0.409
+samp=15 7 0.408
+samp=25 15 0.135
+samp=25 9 0.183
+samp=25 5 0.211
+
+[06/30/2006 11:00]
+CAST_type=Profile
+stnd_ml=1.253 stnd_nrml=0.024987 blnk=0.0005 KIO3_ml=4.997 CAST_file=200606/ORCA1_CAST4375
+samp=5 7 1.925
+samp=5 9 1.905
+samp=5 16 1.953
+samp=15 10 0.920
+samp=15 5 0.935
+samp=15 14 0.932
+samp=25 8 0.284 
+samp=25 12 0.258
+samp=25 11 0.215
+
+[07/11/2006 11:30]
+CAST_type=Profile
+stnd_ml=1.246 stnd_nrml=0.024987 blnk=0.0005 KIO3_ml=4.997 CAST_file=200607/ORCA1_CAST4507 
+samp=5 9 1.821
+samp=5 11 1.816
+samp=5 12 1.847
+samp=15 2 0.411
+samp=15 4 0.379
+samp=15 1 0.364
+samp=25 5 0.215
+samp=25 8 0.211
+samp=25 10 0.182
+
+[07/28/2006 15:00]
+CAST_type=Profile
+stnd_ml=1.2565 stnd_nrml=0.024984 blnk=0.0015 KIO3_ml=5.013929 CAST_file=200607/ORCA1_CAST4645
+samp=5 241 1.087
+samp=5 244 1.032
+samp=5 249 0.934
+samp=15 242 0.257
+samp=15 245 0.212
+samp=15 250 0.198
+samp=25 243 0.215
+samp=25 246 0.129
+samp=25 251 0.115
+
+[08/03/2006 18:00]
+CAST_type=Profile
+stnd_ml=1.262 stnd_nrml=0.024987 blnk=0.0045 KIO3_ml=5.013929 CAST_file=200608/ORCA1_CAST4719
+samp=5 16 1.919
+samp=5 15 1.822
+samp=5 8 1.864
+samp=15 14 0.166
+samp=15 18 0.155
+samp=15 19 0.497
+samp=25 4 0.185
+samp=25 9 0.116
+samp=25 10 0.112
+
+### 25 meters excluded from calibration (outlier, pattern between previous and next winkler does not
+### match pattern in raw CTD data or in Citizen's Winklers)
+[08/24/2006 17:00]
+CAST_type=Profile
+stnd_ml=1.257 stnd_nrml=0.025043 blnk=0.0035 KIO3_ml=5.0179 CAST_file=200608/ORCA1_CAST4970
+samp=5 11 1.792
+samp=5 5 1.815
+samp=5 13 1.865
+samp=15 9 0.477
+samp=15 4 0.530
+samp=15 15 0.479
+###samp=25 16 0.478
+###samp=25 18 0.494
+###samp=25 19 0.464
+
+[09/07/2006 16:00]
+CAST_type=Profile
+stnd_ml=1.2585 stnd_nrml=0.025021 blnk=0.005 KIO3_ml=5.0179 CAST_file=200609/ORCA1_CAST5137
+samp=5 8 1.760
+samp=5 9 1.751
+samp=5 10 1.785
+samp=15 0 0.125
+samp=15 14 0.149
+samp=15 11 0.166
+samp=25 12 0.153
+samp=25 18 0.101
+samp=25 5 0.168
+
+[10/06/2006 13:45]
+CAST_type=Profile
+stnd_ml=1.263 stnd_nrml=0.025043 blnk=0.0015 KIO3_ml=5.0179 CAST_file=200610/ORCA1_CAST5482
+samp=5 16 1.681
+samp=5 7 1.656
+samp=5 9 1.629
+samp=15 0 0.260
+samp=15 3 0.275
+samp=15 1 0.275
+samp=25 19 0.116
+samp=25 4 0.118
+samp=25 8 0.119
+
+[10/30/2006 17:00]
+CAST_type=Profile
+stnd_ml=1.271 stnd_nrml=0.025021 blnk=0.0015 KIO3_ml=5.0446 CAST_file=200610/ORCA1_CAST5772    
+samp=5 13 1.535
+samp=5 10 1.544
+samp=5 4 1.539
+samp=15 12 0.426
+samp=15 18 0.426
+samp=15 15 0.412
+samp=25 1 0.592
+samp=25 16 0.616
+samp=25 19 0.600
+
+[11/14/2006 17:30]
+CAST_type=Profile
+stnd_ml=0.508 stnd_nrml=0.0100 blnk=0.002 KIO3_ml=5.0446 CAST_file=200611/ORCA1_CAST5943
+samp=5 7 0.632
+samp=5 0 0.616
+samp=5 14 0.609
+samp=15 3 0.537
+samp=15 15 0.524
+samp=15 12 0.539
+samp=30 1 0.622 ## no match in cast file
+samp=30 13 0.630 ## no match in cast file
+samp=30 18 0.624 ## no match in cast file
+
+[12/04/2006 17:30]
+CAST_type=Profile
+stnd_ml=0.5065 stnd_nrml=0.0100 blnk=0.001 KIO3_ml=5.0446 CAST_file=200612/ORCA1_CAST6026    
+samp=5 11 1.102
+samp=5 3 1.130
+samp=5 9 1.110
+samp=15 12 0.734
+samp=15 15 0.695
+samp=15 7 0.704
+samp=25 19 0.557
+samp=25 4 0.553
+samp=25 2 0.556
+
+[01/12/2007 14:00]
+CAST_type=Profile
+stnd_ml=1.2635 stnd_nrml=0.025045 blnk=0.0005 KIO3_ml=5.0446 CAST_file=200701/ORCA1_CAST6148
+samp=5 19 1.552
+samp=5 3 1.539
+samp=5 2 1.535
+samp=10 1 1.013
+samp=10 9 0.993
+samp=10 10 1.014
+samp=15 8 0.777
+samp=15 12 0.796
+samp=15 18 0.771
+samp=25 4 0.441
+samp=25 11 0.411
+samp=25 7 0.421
+
+[02/21/2007 17:30]
+CAST_type=Profile
+stnd_ml=0.505 stnd_nrml=0.0100 blnk=0.001 KIO3_ml=5.0446 CAST_file=200702/ORCA1_CAST6230
+samp=5 24 1.493
+samp=5 30 1.500
+samp=5 28 1.520
+samp=10 9 0.630
+samp=10 8 0.632
+samp=10 15 0.621
+samp=15 23 0.694
+samp=15 29 0.684
+samp=15 27 0.689
+samp=25 4 0.709
+samp=25 32 0.680
+samp=25 31 0.695
+
+[03/28/2007 16:30]
+CAST_type=Profile
+stnd_ml=1.255 stnd_nrml=0.025041 blnk=0.000 KIO3_ml=5.0446 CAST_file=200703/ORCA1_CAST6357
+samp=5 4 1.799
+samp=5 19 1.579
+samp=5 31 1.722
+samp=10 25 1.410
+samp=10 0 1.398
+samp=10 21 1.385
+samp=15 32 1.221
+samp=15 30 1.250
+samp=15 26 1.224
+samp=25 14 0.838
+samp=25 23 0.790
+samp=25 28 0.760
+
+[04/18/2007 18:30]
+CAST_type=Profile
+stnd_ml=0.505 stnd_nrml=0.0100 blnk=0.001 KIO3_ml=5.0446 CAST_file=200704/ORCA1_CAST6582
+samp=5 19 1.831
+samp=5 21 1.753
+samp=5 30 1.745
+samp=10 23 1.060
+samp=10 27 1.042
+samp=10 25 1.049
+samp=15 26 0.974
+samp=15 22 0.981
+samp=15 29 0.973
+samp=25 20 0.800
+samp=25 24 0.803
+samp=25 28 0.815
+
+[04/24/2007 12:00]
+CAST_type=Profile
+stnd_ml=1.2555 stnd_nrml=0.025041 blnk=0.002 KIO3_ml=5.0446 CAST_file=200704/ORCA1_CAST6650
+samp=5 29 2.020
+samp=5 28 2.059
+samp=5 19 2.051
+samp=10 30 1.368
+samp=10 27 1.358
+samp=10 24 1.346
+samp=15 20 0.984
+samp=15 26 0.971
+samp=15 22 0.983
+samp=25 23 0.650
+samp=25 25 0.628
+samp=25 21 0.615
+
+[05/11/2007 12:45]
+CAST_type=Profile
+stnd_ml=1.255 stnd_nrml=0.025041 blnk=0.000 KIO3_ml=5.0446 CAST_file=200705/ORCA1_CAST6853
+samp=5 31 2.146
+samp=5 32 2.109
+samp=5 15 2.090
+samp=10 18 2.308
+samp=10 9 2.308
+samp=10 12 2.328
+samp=15 4 0.822
+samp=15 33 0.793
+samp=15 0 0.788
+samp=25 16 0.709
+samp=25 14 0.687
+samp=25 8 0.681
+
+[06/19/2007 15:30]
+CAST_type=Profile
+stnd_ml=1.264 stnd_nrml=0.025021 blnk=0.002 KIO3_ml=5.0446 CAST_file=200706/ORCA1_CAST7323
+samp=5 21 2.047
+samp=5 23 2.083
+samp=5 19 2.094
+samp=10 28 1.931
+samp=10 20 1.924
+samp=10 22 1.972
+samp=15 26 0.958
+samp=15 24 0.988
+samp=15 30 1.010
+samp=25 25 0.530
+samp=25 27 0.525
+samp=25 29 0.524
+
+[07/02/2007 14:00]
+CAST_type=Profile
+stnd_ml=1.257 stnd_nrml=0.025024 blnk=0.0035 KIO3_ml=5.0179 CAST_file=200707/ORCA1_CAST7480
+samp=5 9 2.012
+samp=5 18 2.014
+samp=5 33 2.033
+samp=10 8 1.007
+samp=10 31 1.003
+samp=10 4 1.061
+samp=15 12 0.518
+samp=15 0 0.515
+samp=15 14 0.533
+samp=25 25 0.556
+samp=25 16 0.561
+samp=25 32 0.548
+
+[08/08/2007 14:30]
+CAST_type=Profile
+stnd_ml=0.5005 stnd_nrml=0.0100 blnk=0.001 KIO3_ml=5.0446 CAST_file=200708/ORCA1_CAST7922
+samp=5 9 1.268
+samp=5 16 1.317
+samp=5 32 1.281
+samp=10 29 0.754
+samp=10 20 0.755
+samp=10 33 0.760
+samp=15 25 0.591
+samp=15 8 0.590
+samp=25 12 0.405
+samp=25 31 0.408
+samp=25 18 0.409
+
+[08/28/2007 14:00]
+CAST_type=Profile
+stnd_ml=1.259 stnd_nrml=0.025024 blnk=0.000 KIO3_ml=5.0446 CAST_file=200708/ORCA1_CAST8162
+samp=5 20 1.834
+samp=5 21 1.830
+samp=5 22 1.843
+samp=10 26 0.903
+samp=10 29 0.914
+samp=10 24 0.905
+samp=15 25 0.219
+samp=15 19 0.219
+samp=15 4 0.218
+samp=25 23 0.289
+samp=25 16 0.290
+samp=25 30 0.286
+
+[09/27/2007 12:00]
+CAST_type=Profile
+stnd_ml=1.259 stnd_nrml=0.025024 blnk=0.002 KIO3_ml=5.0446 CAST_file=200709/ORCA1_CAST8521
+samp=5 25 1.061
+samp=5 14 1.076
+samp=5 16 1.056
+samp=10 15 0.301
+samp=10 24 0.314
+samp=10 29 0.314
+samp=15 22 0.154
+samp=15 4 0.149
+samp=15 9 0.243
+samp=25 19 0.193
+samp=25 33 0.188
+samp=25 31 0.190
+
+[10/12/2007 12:00]
+CAST_type=Profile
+stnd_ml=0.500 stnd_nrml=0.0100 blnk=0.000 KIO3_ml=5.0446 CAST_file=200710/ORCA1_CAST8636
+samp=5 16 0.393
+samp=5 23 0.393
+samp=5 29 0.391
+samp=10 32 0.177
+samp=10 24 0.192
+samp=10 30 0.197
+samp=15 25 0.219
+samp=15 8 0.215
+samp=15 19 0.220
+samp=25 33 0.290
+samp=25 31 0.309
+samp=25 0 0.289
+
+[11/06/2007 16:45]
+CAST_type=Profile
+stnd_ml=0.503 stnd_nrml=0.0100 blnk=0.0005 KIO3_ml=5.0446 CAST_file=200711/ORCA1_CAST8787
+samp=5 31 0.996
+samp=5 19 0.976
+samp=5 30 0.949
+samp=10 29 0.523
+samp=10 22 0.525
+samp=10 24 0.525
+samp=15 15 0.528
+samp=15 27 0.545
+samp=15 28 0.553
+samp=25 25 0.523
+samp=25 14 0.520
+samp=25 9 0.516
+
+[11/29/2007 15:00]
+CAST_type=Profile
+stnd_ml=0.504 stnd_nrml=0.0100 blnk=0.002 KIO3_ml=5.0446 CAST_file=200711/ORCA1_CAST8898
+samp=5 19 0.789
+samp=5 27 0.784
+samp=10 20 0.620
+samp=10 26 0.614
+samp=10 8 0.624
+samp=15 31 0.591
+samp=15 22 0.585
+samp=15 28 0.598
+samp=25 29 0.593
+samp=25 18 0.593
+samp=25 21 0.593
+
+[02/11/2008 11:30]
+CAST_type=Profile
+stnd_ml=1.261 stnd_nrml=0.025024 blnk=0.002 KIO3_ml=5.0446 CAST_file=200802/ORCA1_CAST9142
+samp=5 4 1.538
+samp=5 15 1.469
+samp=5 9 1.507
+samp=10 0 0.855
+samp=10 32 0.835
+samp=10 25 0.858
+samp=15 30 0.683
+samp=15 14 0.682
+samp=15 33 0.677
+samp=25 16 0.703
+samp=25 23 0.688
+samp=25 12 0.680
+
+[03/19/2008 13:45]
+CAST_type=Profile
+stnd_ml=1.258 stnd_nrml=0.025024 blnk=0.0025 KIO3_ml=5.0446 CAST_file=200803/ORCA1_CAST9431
+samp=5 102 1.953
+samp=5 101 1.968
+samp=5 100 1.901
+samp=10 99 0.801
+samp=10 98 0.798
+samp=10 97 0.812
+samp=15 108 0.609
+samp=15 107 0.634
+samp=15 106 0.633
+samp=25 105 0.629
+samp=25 104 0.637
+samp=25 103 0.640
+
+[04/01/2008 12:30]
+CAST_type=Profile
+stnd_ml=1.254 stnd_nrml=0.025024 blnk=0.0006 KIO3_ml=5.0446 CAST_file=200804/ORCA1_CAST9578
+samp=5 0 2.591
+samp=5 14 2.608
+samp=5 25 2.606
+samp=10 16 0.789
+samp=10 33 0.763
+samp=10 30 0.769
+samp=15 9 0.834
+samp=15 4 0.830
+samp=15 23 0.801
+samp=25 32 0.567
+samp=25 12 0.579
+samp=25 15 0.563
+
+[04/22/2008 13:00]
+CAST_type=Discrete
+stnd_ml=1.256 stnd_nrml=0.025024 blnk=0.002 KIO3_ml=5.0446 CAST_file=NA
+samp=10 31 0.655 2008/ORCA1_DS20080422_010m
+samp=10 27 0.652 2008/ORCA1_DS20080422_010m
+###samp=10 8 0.660 2008/ORCA1_DS20080422_010m #overshot#
+samp=15 20 0.589 2008/ORCA1_DS20080422_015m
+samp=15 26 0.589 2008/ORCA1_DS20080422_015m
+samp=15 28 0.597 2008/ORCA1_DS20080422_015m
+samp=25 19 0.554 2008/ORCA1_DS20080422_025m
+samp=25 21 0.533 2008/ORCA1_DS20080422_025m
+samp=25 29 0.530 2008/ORCA1_DS20080422_025m
+
+[05/07/2008 11:45]
+CAST_type=Profile
+stnd_ml=1.257 stnd_nrml=0.025024 blnk=0.001 KIO3_ml=5.0446 CAST_file=200805/ORCA1_CAST10013
+samp=5 27 2.308
+samp=5 28 2.335
+samp=5 23 2.313
+samp=10 8 1.018
+samp=10 26 0.988
+samp=10 20 0.979
+samp=15 14 0.518
+samp=15 33 0.506
+samp=25 22 0.423
+samp=25 24 0.423
+samp=25 18 0.422
+
+[06/03/2008 14:30]
+CAST_type=Discrete
+stnd_ml=1.263 stnd_nrml=0.025024 blnk=0.003 KIO3_ml=5.0446 CAST_file=NA
+samp=5 27 1.664 2008/ORCA1_DS20080603_005m
+samp=5 26 1.632 2008/ORCA1_DS20080603_005m
+samp=5 29 1.654 2008/ORCA1_DS20080603_005m
+samp=10 22 1.201 2008/ORCA1_DS20080603_010m
+samp=10 30 1.209 2008/ORCA1_DS20080603_010m
+samp=10 8 1.211 2008/ORCA1_DS20080603_010m
+samp=15 25 0.589 2008/ORCA1_DS20080603_015m
+samp=15 19 0.592 2008/ORCA1_DS20080603_015m
+samp=15 15 0.569 2008/ORCA1_DS20080603_015m
+samp=25 16 0.392 2008/ORCA1_DS20080603_025m
+samp=25 33 0.379 2008/ORCA1_DS20080603_025m
+samp=25 31 0.379 2008/ORCA1_DS20080603_025m
+
+### Missing discrete files for 5, 10, 15 meters...cast type switched from "Mixed" to "Profile" ###
+[07/22/2008 14:30]
+CAST_type=Profile
+stnd_ml=1.274 stnd_nrml=0.025024 blnk=0.000 KIO3_ml=5.0446 CAST_file=200807/ORCA1_CAST10925
+samp=5 27 1.873
+samp=5 15 1.830
+samp=5 9 1.876
+samp=10 29 1.787
+samp=10 26 1.765
+samp=10 19 1.815
+samp=15 22 1.185
+samp=15 25 1.188
+samp=15 30 1.174
+samp=25 32 0.269
+samp=25 28 0.272
+samp=25 20 0.261
+
+[07/22/2008 16:30]
+CAST_type=Profile
+stnd_ml=1.274 stnd_nrml=0.025024 blnk=0.000 KIO3_ml=5.0446 CAST_file=200807/ORCA1_CAST10926
+samp=5 33 1.804
+samp=5 18 1.793
+samp=5 16 1.832
+samp=25 8 0.392
+samp=25 24 0.395
+samp=25 21 0.390
+
+[09/11/2008 15:50]
+CAST_type=Profile
+stnd_ml=1.260 stnd_nrml=0.025027 blnk=0.001 KIO3_ml=5.0446 CAST_file=200809/ORCA1_CAST11522
+samp=5 18 0.884
+samp=5 16 0.902
+samp=5 4 0.905
+samp=10 33 0.544
+samp=10 0 0.538
+samp=10 24 0.528 # 2ml reagents
+samp=15 21 0.351
+samp=15 14 0.350
+samp=15 23 0.355
+samp=25 31 0.265
+samp=25 12 0.260
+samp=25 8 0.259
+
+### Missing discrete files for all depths...cast type switched from "Discrete" to "Profile" ###
+[10/21/2008 15:00]
+CAST_type=Profile
+stnd_ml=1.257 stnd_nrml=0.025027 blnk=0.0015 KIO3_ml=5.0446 CAST_file=200810/ORCA1_CAST12002
+samp=5 15 1.114
+samp=5 9 1.115
+samp=5 21 1.107
+samp=10 0 0.574
+samp=10 18 0.571
+samp=10 29 0.568
+samp=15 8 0.375
+samp=15 12 0.374
+###samp=15 14 0.732 #bottle 14, lid 33
+samp=25 24 0.338
+samp=25 16 0.343
+samp=25 25 0.340
+
+[11/18/2008 12:20]
+CAST_type=Discrete   
+stnd_ml=1.260 stnd_nrml=0.025026 blnk=0.0005 KIO3_ml=5.0446 CAST_file=NA
+samp=5 16 0.663 2008/ORCA1_DS20081118_005m
+samp=5 33 0.656 2008/ORCA1_DS20081118_005m
+samp=5 15 0.633 2008/ORCA1_DS20081118_005m
+samp=10 0 0.561 2008/ORCA1_DS20081118_010m
+samp=10 18 0.554 2008/ORCA1_DS20081118_010m
+samp=10 12 0.557 2008/ORCA1_DS20081118_010m
+samp=15 8 0.467 2008/ORCA1_DS20081118_015m
+samp=15 24 0.469 2008/ORCA1_DS20081118_015m
+samp=15 9 0.463 2008/ORCA1_DS20081118_015m
+samp=25 29 0.492 2008/ORCA1_DS20081118_025m
+samp=25 21 0.496 2008/ORCA1_DS20081118_025m
+
+[12/30/2008 16:00]
+CAST_type=Discrete
+stnd_ml=1.262 stnd_nrml=0.025026 blnk=0.001 KIO3_ml=5.0446 CAST_file=NA
+samp=5 20 1.260 2008/ORCA1_DS20081230_005m
+samp=5 14 1.277 2008/ORCA1_DS20081230_005m
+samp=5 27 1.271 2008/ORCA1_DS20081230_005m
+samp=15 28 0.545 2008/ORCA1_DS20081230_015m
+samp=15 26 0.527 2008/ORCA1_DS20081230_015m
+samp=15 32 0.528 2008/ORCA1_DS20081230_015m
+samp=25 19 0.562 2008/ORCA1_DS20081230_025m
+samp=25 4 0.565 2008/ORCA1_DS20081230_025m
+samp=25 31 0.571 2008/ORCA1_DS20081230_025m
+
+[01/29/2009 12:00]           
+CAST_type=Discrete
+stnd_ml=1.262 stnd_nrml=0.025027 blnk=0.0025 KIO3_ml=5.0446 CAST_file=NA
+samp=5 20 1.211 2009/ORCA1_DS20090129_005m
+samp=5 28 1.216 2009/ORCA1_DS20090129_005m
+samp=5 31 1.199 2009/ORCA1_DS20090129_005m
+samp=10 459 0.884 2009/ORCA1_DS20090129_010m
+samp=10 458 0.892 2009/ORCA1_DS20090129_010m
+samp=10 457 0.870 2009/ORCA1_DS20090129_010m
+samp=15 23 0.892 2009/ORCA1_DS20090129_015m
+samp=15 27 0.890 2009/ORCA1_DS20090129_015m
+samp=15 14 0.883 2009/ORCA1_DS20090129_015m
+samp=25 30 0.696 2009/ORCA1_DS20090129_025m
+samp=25 32 0.679 2009/ORCA1_DS20090129_025m
+samp=25 26 0.680 2009/ORCA1_DS20090129_025m
+
+[04/07/2009 14:50]           
+CAST_type=Discrete
+stnd_ml=1.257 stnd_nrml=0.025023 blnk=0.003 KIO3_ml=5.0446 CAST_file=NA
+samp=5 19 2.455 2009/ORCA1_DS20090407_005m
+samp=5 14 2.471 2009/ORCA1_DS20090407_005m
+samp=5 22 2.451 2009/ORCA1_DS20090407_005m
+samp=10 32 1.248 2009/ORCA1_DS20090407_010m
+samp=10 31 1.268 2009/ORCA1_DS20090407_010m
+samp=10 27 1.253 2009/ORCA1_DS20090407_010m
+samp=15 0 0.972 2009/ORCA1_DS20090407_015m
+samp=15 30 0.964 2009/ORCA1_DS20090407_015m
+samp=15 28 0.968 2009/ORCA1_DS20090407_015m
+samp=25 26 0.703 2009/ORCA1_DS20090407_025m
+samp=25 20 0.705 2009/ORCA1_DS20090407_025m
+samp=25 23 0.714 2009/ORCA1_DS20090407_025m
+
+[05/01/2009 13:20]           
+CAST_type=Discrete
+stnd_ml=1.2545 stnd_nrml=0.025024 blnk=0.000 KIO3_ml=5.0446 CAST_file=NA
+samp=5 14 2.268 2009/ORCA1_DS20090501_005m
+samp=5 19 2.282 2009/ORCA1_DS20090501_005m
+samp=5 0 2.252 2009/ORCA1_DS20090501_005m
+samp=10 22 1.239 2009/ORCA1_DS20090501_010m
+samp=10 30 1.225 2009/ORCA1_DS20090501_010m
+samp=10 28 1.248 2009/ORCA1_DS20090501_010m
+samp=15 32 0.829 2009/ORCA1_DS20090501_015m
+samp=15 27 0.844 2009/ORCA1_DS20090501_015m
+samp=15 31 0.846 2009/ORCA1_DS20090501_015m
+samp=25 23 0.717 2009/ORCA1_DS20090501_025m
+samp=25 26 0.721 2009/ORCA1_DS20090501_025m
+samp=25 20 0.699 2009/ORCA1_DS20090501_025m
+
+[07/31/2009 12:00]           
+CAST_type=Discrete
+stnd_ml=1.257 stnd_nrml=0.025022 blnk=0.001 KIO3_ml=5.0446 CAST_file=NA
+samp=5 19 2.467 2009/ORCA1_DS20090731_005m
+samp=5 20 2.450 2009/ORCA1_DS20090731_005m
+samp=5 28 2.515 2009/ORCA1_DS20090731_005m
+samp=10 22 1.052 2009/ORCA1_DS20090731_010m
+samp=10 14 1.043 2009/ORCA1_DS20090731_010m
+samp=10 32 0.926 2009/ORCA1_DS20090731_010m
+samp=15 27 0.560 2009/ORCA1_DS20090731_015m
+samp=15 23 0.548 2009/ORCA1_DS20090731_015m
+samp=15 30 0.546 2009/ORCA1_DS20090731_015m
+samp=25 31 0.596 2009/ORCA1_DS20090731_025m
+samp=25 26 0.573 2009/ORCA1_DS20090731_025m
+samp=25 0 0.583 2009/ORCA1_DS20090731_025m
+
+[09/01/2009 12:30]           
+CAST_type=Discrete
+stnd_ml=1.264 stnd_nrml=0.025024 blnk=0.003 KIO3_ml=5.0446 CAST_file=NA
+samp=5 23 1.601 2009/ORCA1_DS20090901_005m
+samp=5 33 1.618 2009/ORCA1_DS20090901_005m
+samp=5 22 1.645 2009/ORCA1_DS20090901_005m
+samp=10 9 0.536 2009/ORCA1_DS20090901_010m
+samp=10 30 0.535 2009/ORCA1_DS20090901_010m
+samp=10 27 0.534 2009/ORCA1_DS20090901_010m
+samp=15 0 0.442 2009/ORCA1_DS20090901_015m
+samp=15 31 0.443 2009/ORCA1_DS20090901_015m
+samp=15 28 0.441 2009/ORCA1_DS20090901_015m
+samp=25 26 0.331 2009/ORCA1_DS20090901_025m
+samp=25 20 0.338 2009/ORCA1_DS20090901_025m
+samp=25 4 0.348 2009/ORCA1_DS20090901_025m
+
+[10/08/2009 13:00]           
+CAST_type=Discrete
+stnd_ml=1.261 stnd_nrml=0.025023 blnk=0.0005 KIO3_ml=5.0446 CAST_file=NA
+samp=5 29 1.089 2009/ORCA1_DS20091008_005m
+samp=5 32 1.067 2009/ORCA1_DS20091008_005m
+samp=5 19 1.096 2009/ORCA1_DS20091008_005m
+samp=15 16 0.328 2009/ORCA1_DS20091008_015m
+samp=15 8 0.305 2009/ORCA1_DS20091008_015m
+samp=15 21 0.300 2009/ORCA1_DS20091008_015m
+samp=25 24 0.254 2009/ORCA1_DS20091008_025m
+samp=25 14 0.254 2009/ORCA1_DS20091008_025m
+samp=25 25 0.256 2009/ORCA1_DS20091008_025m
+
+[11/24/2009 13:00]           
+CAST_type=Discrete
+stnd_ml=1.269 stnd_nrml=0.025024 blnk=0.0025 KIO3_ml=5.0446 CAST_file=NA
+samp=5 19 0.851 2009/ORCA1_DS20091124_005m
+samp=5 32 0.820 2009/ORCA1_DS20091124_005m
+samp=5 29 0.831 2009/ORCA1_DS20091124_005m
+samp=15 8 0.462 2009/ORCA1_DS20091124_015m
+samp=15 25 0.478 2009/ORCA1_DS20091124_015m
+samp=15 16 0.480 2009/ORCA1_DS20091124_015m
+samp=25 14 0.317 2009/ORCA1_DS20091124_025m
+samp=25 18 0.312 2009/ORCA1_DS20091124_025m
+samp=25 24 0.313 2009/ORCA1_DS20091124_025m
+
+[12/07/2009 13:30]           
+CAST_type=Discrete
+stnd_ml=1.263 stnd_nrml= 0.025023 blnk=0.0005 KIO3_ml=5.0446 CAST_file=NA
+samp=5 0 1.824 2009/ORCA1_DS20091207_005m
+samp=5 31 1.829 2009/ORCA1_DS20091207_005m
+samp=5 28 1.848 2009/ORCA1_DS20091207_005m
+samp=10 9 1.194 2009/ORCA1_DS20091207_010m
+samp=10 33 1.212 2009/ORCA1_DS20091207_010m
+samp=10 22 1.209 2009/ORCA1_DS20091207_010m
+samp=15 27 0.675 2009/ORCA1_DS20091207_015m
+samp=15 23 0.685 2009/ORCA1_DS20091207_015m
+samp=15 30 0.675 2009/ORCA1_DS20091207_015m
+samp=25 4 0.383 2009/ORCA1_DS20091207_025m
+samp=25 26 0.382 2009/ORCA1_DS20091207_025m
+samp=25 20 0.453 2009/ORCA1_DS20091207_025m
+
+[02/02/2010 10:00]           
+CAST_type=Discrete
+stnd_ml=1.253 stnd_nrml=0.025025 blnk=.0015 KIO3_ml=5.0446 CAST_file=NA                                                                                            
+samp=5 23 0.765 2010/ORCA1_DS20100202_005m
+samp=5 0 0.756 2010/ORCA1_DS20100202_005m
+samp=5 28 0.764 2010/ORCA1_DS20100202_005m      
+samp=10 30 0.605 2010/ORCA1_DS20100202_010m
+samp=10 22 0.601 2010/ORCA1_DS20100202_010m
+samp=10 20 0.601 2010/ORCA1_DS20100202_010m
+samp=15 33 0.502 2010/ORCA1_DS20100202_015m
+samp=15 27 0.504 2010/ORCA1_DS20100202_015m
+samp=15 9 0.498 2010/ORCA1_DS20100202_015m
+samp=25 4 0.276 2010/ORCA1_DS20100202_025m
+samp=25 26 0.267 2010/ORCA1_DS20100202_025m
+samp=25 31 0.273 2010/ORCA1_DS20100202_025m
+
+### exlcuded from calibration (no match in CTD file for either depth, bubbles in flask)
+###[08/13/2010 14:00]           
+###CAST_type=Profile
+###stnd_ml=0.7955 stnd_nrml=0.025025 blnk=0.0005 KIO3_ml=5.0446 CAST_file=201008/ORCA1_CAST16681
+###samp=0 4 1.020 #bubble in flask
+###samp=0 22 1.012 #bubble in flask
+###samp=30 0 0.126
+###samp=30 32 0.125 #bubble in flask
+
+[08/26/2010 12:00]           
+CAST_type=Profile
+stnd_ml=0.833 stnd_nrml=0.025025 blnk=0.002 KIO3_ml=5.0446 CAST_file=201008/ORCA1_CAST16799
+samp=0 33 1.054 ## no match in cast file
+samp=0 25 1.058 ## no match in cast file
+samp=10 9 0.859
+samp=10 29 0.878
+samp=15 27 0.140
+samp=15 30 0.142
+samp=30 4 0.141 ## no match in cast file 
+samp=30 8 0.141 ## no match in cast file
+
+[03/22/2011 16:00]
+CAST_type=Discrete
+stnd_ml=0.8995 stnd_nrml=0.025001 blnk=0.0005 KIO3_ml=5.0446 CAST_file=NA
+samp=5 16 1.108 2011/ORCA1_DS20110322_005m
+samp=5 33 1.091 2011/ORCA1_DS20110322_005m
+samp=5 26 1.068 2011/ORCA1_DS20110322_005m
+samp=25 19 0.507 2011/ORCA1_DS20110322_025m
+samp=25 20 0.493 2011/ORCA1_DS20110322_025m
+samp=25 30 0.495 2011/ORCA1_DS20110322_025m
+
+[06/30/2011 11:00]
+CAST_type=Discrete
+stnd_ml=1.269 stnd_nrml=0.025030 blnk=0.001 KIO3_ml=5.0446 CAST_file=NA
+samp=5 32 1.386 2011/ORCA1_DS20110630_005m ###bad HEX file ###
+samp=5 22 1.421 2011/ORCA1_DS20110630_005m ###bad HEX file ###
+samp=15 20 0.532 2011/ORCA1_DS20110630_015m
+samp=15 14 0.537 2011/ORCA1_DS20110630_015m
+samp=30 8 0.378 2011/ORCA1_DS20110630_030m
+samp=30 9 0.376 2011/ORCA1_DS20110630_030m
+
+[07/12/2011 17:00]
+CAST_type=Discrete
+stnd_ml=1.2655 stnd_nrml=0.025030 blnk=0.001 KIO3_ml=5.0446 CAST_file=NA
+samp=5 22 0.831 2011/ORCA1_DS20110712_005m
+samp=5 23 0.837 2011/ORCA1_DS20110712_005m
+samp=5 26 0.818 2011/ORCA1_DS20110712_005m
+samp=15 30 0.548 2011/ORCA1_DS20110712_015m
+samp=15 20 0.541 2011/ORCA1_DS20110712_015m
+samp=15 32 0.531 2011/ORCA1_DS20110712_015m
+samp=25 33 0.435 2011/ORCA1_DS20110712_025m
+samp=25 27 0.430 2011/ORCA1_DS20110712_025m
+samp=25 28 0.436 2011/ORCA1_DS20110712_025m
+
+[08/25/2011 14:45]
+CAST_type=Discrete
+stnd_ml=1.267 stnd_nrml=0.025030 blnk=-0.001 KIO3_ml=5.0446 CAST_file=NA
+samp=5 14 2.049 2011/ORCA1_DS20110825_005m
+samp=5 20 2.021 2011/ORCA1_DS20110825_005m
+samp=5 28 2.063 2011/ORCA1_DS20110825_005m
+samp=10 30 0.637 2011/ORCA1_DS20110825_010m
+samp=10 26 0.654 2011/ORCA1_DS20110825_010m ###*overshot end point
+samp=10 33 0.647 2011/ORCA1_DS20110825_010m
+samp=30 9 0.205 2011/ORCA1_DS20110825_030m
+samp=30 23 0.224 2011/ORCA1_DS20110825_030m
+samp=30 8 0.239 2011/ORCA1_DS20110825_030m
+
+[12/21/2011 14:30]
+CAST_type=Discrete
+stnd_ml=1.267 stnd_nrml=0.025030 blnk=0.000 KIO3_ml=5.0446 CAST_file=NA
+###samp=5 21 0.832 2011/ORCA1_DS20111221_005m ## should be 2 meters?
+###samp=5 33 0.842 2011/ORCA1_DS20111221_005m ## should be 2 meters?
+###samp=5 32 0.830 2011/ORCA1_DS20111221_005m ## should be 2 meters?
+samp=15 22 0.478 2011/ORCA1_DS20111221_015m
+samp=15 9 0.478 2011/ORCA1_DS20111221_015m
+samp=15 23 0.482 2011/ORCA1_DS20111221_015m
+samp=25 20 0.397 2011/ORCA1_DS20111221_025m
+samp=25 26 0.394 2011/ORCA1_DS20111221_025m
+samp=25 28 0.406 2011/ORCA1_DS20111221_025m
+
+[09/28/2012 12:30]
+CAST_type=Discrete
+stnd_ml=0.634 stnd_nrml=0.025030 blnk=0.002 KIO3_ml=5.0446 CAST_file=NA
+samp=2 28 0.941 2012/ORCA1_DS20120928_002m
+samp=2 29 0.922 2012/ORCA1_DS20120928_002m
+samp=2 27 0.928 2012/ORCA1_DS20120928_002m
+samp=5 26 0.924 2012/ORCA1_DS20120928_005m
+samp=5 25 0.947 2012/ORCA1_DS20120928_005m
+samp=5 23 0.949 2012/ORCA1_DS20120928_005m
+samp=10 22 0.217 2012/ORCA1_DS20120928_010m
+samp=10 21 0.229 2012/ORCA1_DS20120928_010m
+samp=10 20 0.220 2012/ORCA1_DS20120928_010m
+samp=15 13 0.164 2012/ORCA1_DS20120928_015m
+samp=15 14 0.154 2012/ORCA1_DS20120928_015m
+samp=15 19 0.154 2012/ORCA1_DS20120928_015m
+samp=30 0 0.163 2012/ORCA1_DS20120928_030m
+samp=30 8 0.164 2012/ORCA1_DS20120928_030m
+samp=30 9 0.163 2012/ORCA1_DS20120928_030m
+
+[01/10/2013 16:00]
+CAST_type=Discrete
+stnd_ml=0.631 stnd_nrml=0.025030 blnk=0.001 KIO3_ml=5.0446 CAST_file=NA
+samp=5 32 0.663 2013/ORCA1_DS20130110_005m
+samp=5 30 0.658 2013/ORCA1_DS20130110_005m
+samp=5 29 0.652 2013/ORCA1_DS20130110_005m
+samp=15 28 0.253 2013/ORCA1_DS20130110_015m
+samp=15 27 0.246 2013/ORCA1_DS20130110_015m
+samp=15 26 0.249 2013/ORCA1_DS20130110_015m
+samp=30 25 0.280 2013/ORCA1_DS20130110_030m
+samp=30 24 0.287 2013/ORCA1_DS20130110_030m
+samp=30 23 0.285 2013/ORCA1_DS20130110_030m
+
+[06/01/2013 17:00]
+CAST_type=Discrete
+stnd_ml=0.631 stnd_nrml=0.024998 blnk=0.001 KIO3_ml=5.0439 CAST_file=NA
+samp=2 27 0.987 2013/ORCA1_DS20130601_002m      
+samp=2 28 0.995 2013/ORCA1_DS20130601_002m      
+samp=2 29 0.976 2013/ORCA1_DS20130601_002m 
+samp=5 24 0.915 2013/ORCA1_DS20130601_005m      
+samp=5 25 0.917 2013/ORCA1_DS20130601_005m      
+samp=5 26 0.897 2013/ORCA1_DS20130601_005m  
+samp=10 20 0.378 2013/ORCA1_DS20130601_010m     
+samp=10 21 0.377 2013/ORCA1_DS20130601_010m     
+samp=10 23 0.393 2013/ORCA1_DS20130601_010m 
+samp=15 13 0.389 2013/ORCA1_DS20130601_015m     
+samp=15 14 0.378 2013/ORCA1_DS20130601_015m     
+samp=15 19 0.395 2013/ORCA1_DS20130601_015m     
+samp=30 0 0.233 2013/ORCA1_DS20130601_030m
+samp=30 8 0.232 2013/ORCA1_DS20130601_030m
+samp=30 9 0.250 2013/ORCA1_DS20130601_030m
+
+[07/09/2013 11:30]
+CAST_type=Discrete
+stnd_ml=0.627 stnd_nrml=0.024999 blnk=0.003 KIO3_ml=5.0439 CAST_file=NA
+samp=2 27 1.044 2013/ORCA1_DS20130709_002m  
+samp=2 28 1.056 2013/ORCA1_DS20130709_002m  
+samp=2 29 1.032 2013/ORCA1_DS20130709_002m  
+samp=5 24 0.969 2013/ORCA1_DS20130709_005m  
+samp=5 25 0.973 2013/ORCA1_DS20130709_005m  
+samp=5 26 0.952 2013/ORCA1_DS20130709_005m  
+samp=10 20 0.641 2013/ORCA1_DS20130709_010m 
+samp=10 21 0.650 2013/ORCA1_DS20130709_010m 
+samp=10 23 0.698 2013/ORCA1_DS20130709_010m 
+samp=15 13 0.427 2013/ORCA1_DS20130709_015m 
+samp=15 14 0.418 2013/ORCA1_DS20130709_015m 
+samp=15 19 0.437 2013/ORCA1_DS20130709_015m 
+samp=30 0 0.109 2013/ORCA1_DS20130709_030m
+samp=30 8 0.122 2013/ORCA1_DS20130709_030m
+samp=30 9 0.127 2013/ORCA1_DS20130709_030m
+
+[10/02/2013 11:00]
+CAST_type=Discrete
+stnd_ml=0.645 stnd_nrml=0.024985 blnk=0.002 KIO3_ml=5.0460 CAST_file=NA
+samp=2 27 0.873 2013/ORCA1_DS20131002_002m  
+samp=2 28 0.885 2013/ORCA1_DS20131002_002m  
+samp=5 24 0.079 2013/ORCA1_DS20131002_005m  
+samp=5 25 0.091 2013/ORCA1_DS20131002_005m  
+samp=5 26 0.101 2013/ORCA1_DS20131002_005m  
+samp=10 20 0.116 2013/ORCA1_DS20131002_010m 
+samp=10 21 0.116 2013/ORCA1_DS20131002_010m 
+samp=10 23 0.118 2013/ORCA1_DS20131002_010m 
+samp=15 13 0.166 2013/ORCA1_DS20131002_015m 
+samp=15 14 0.167 2013/ORCA1_DS20131002_015m 
+samp=15 19 0.175 2013/ORCA1_DS20131002_015m 
+samp=30 0 0.225 2013/ORCA1_DS20131002_030m
+samp=30 8 0.235 2013/ORCA1_DS20131002_030m
+samp=30 9 0.253 2013/ORCA1_DS20131002_030m
+
+[04/18/2014 17:25]
+CAST_type=Discrete
+stnd_ml=0.642 stnd_nrml=0.024957 blnk=0.001 KIO3_ml=5.0463 CAST_file=NA
+samp=2 253 0.959 2014/ORCA1_DS20140418_002m      
+samp=2 254 0.968 2014/ORCA1_DS20140418_002m      
+samp=2 255 0.972 2014/ORCA1_DS20140418_002m    
+samp=5 250 0.702 2014/ORCA1_DS20140418_005m      
+samp=5 251 0.757 2014/ORCA1_DS20140418_005m      
+samp=5 252 0.725 2014/ORCA1_DS20140418_005m   
+samp=10 247 0.613 2014/ORCA1_DS20140418_010m     
+samp=10 248 0.627 2014/ORCA1_DS20140418_010m     
+samp=10 249 0.567 2014/ORCA1_DS20140418_010m     
+samp=15 244 0.483 2014/ORCA1_DS20140418_015m     
+samp=15 245 0.490 2014/ORCA1_DS20140418_015m     
+samp=15 246 0.520 2014/ORCA1_DS20140418_015m     
+samp=30 241 0.370 2014/ORCA1_DS20140418_030m
+samp=30 242 0.358 2014/ORCA1_DS20140418_030m
+samp=30 243 0.394 2014/ORCA1_DS20140418_030m
+
